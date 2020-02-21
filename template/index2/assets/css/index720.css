@@ -1,0 +1,184 @@
+﻿@media (max-width:800px){
+/*banner*/
+.banner{ width:100%;height:1.5rem}
+.banNr{ padding-top:0.2rem; padding-left:4%}
+.banNrT{ font-size:0.15rem; line-height:0.3rem;}
+.banNr p{ font-size:0.11rem; line-height:0.18rem;}
+.ButAN{font-size:0.12rem; width:0.8rem; line-height:0.26rem; height:0.26rem;border-radius:0.13rem;margin-top:0.1rem;}
+/*寄售服务项目*/
+.Title P{ font-size:0.14rem; margin-top:0.3rem; margin-bottom:0.03rem;}
+.Title span{ font-size:0.1rem; margin-bottom:0.08rem;line-height:0.16rem}
+.Title i{ width:0.4rem; height:0.02rem; border-radius:0.01rem;}
+.IndIte{margin:0.25rem auto 0;}
+.IndIteK{ height:1rem; width:49.5%;border-left:0.01rem solid #dedee0; margin-bottom:0.2rem;}
+.IndIteK:nth-child(1),.IndIteK:nth-child(3){ border-left:none;}
+.IndIteI{ padding-top:0.15rem; height:0.25rem;}
+.IndIteI img{ height:0.25rem;}
+.IndIteK p{ font-size:0.12rem; padding:0.1rem;}
+/*支付渠道*/
+.IndPay{ margin:0.2rem auto 0}
+.IndPayK{width:44%;height:0.26rem;verflow:hidden;padding:0.08rem 0;border-radius:0.04rem;margin-left:4%; margin-bottom:0.1rem; box-shadow:0 3px 8px rgba(150,192,252,0.4);}
+.IndPayK img{ height:0.26rem;}
+/*平台功能*/
+.IndPlaK{ width:92%; padding:0.15rem 4% 0;}
+.IndPlaL{ width:50%;}
+.IndPlaLT{ font-size:0.13rem;}
+.IndPlaLn{ margin-top:0.15rem;}
+.IndPlaLz{ width:0.3rem; height:0.3rem; line-height:0.3rem; font-size:0.15rem;}
+.IndPlaLr{ width:75%; line-height:0.18rem;}
+.IndPlaLr p{ font-size:0.13rem; color:#2786f9;}
+.IndPlaLr span{ font-size:0.1rem; color:#333;line-height:0.16rem;}	
+.IndPlar{ width:46%; margin-top:0.15rem;}
+.IndPlar img{ width:100%;}
+.IndPlaS{ margin-top:0.15rem;}
+.IndPlaC{ width:38%; margin-left:4%; margin-bottom:0.1rem; padding:0.16rem 3% 0; height:1.1rem; border-radius:0.05rem;}
+.IndPlaI{ height:0.21rem;}
+.IndPlaKt{ font-size:0.13rem;line-height:0.2rem; padding:0.08rem 0 0.03rem;}
+.IndPlaC p{font-size:0.1rem; line-height:0.16rem;}
+a.ButPla{font-size:0.13rem;width:1.6rem; height:0.26rem; line-height:0.26rem; border-radius:0.17rem; border:0.04rem solid #afd3fc; margin:0.1rem auto;}
+/*核心优势*/
+.IndCha{margin:0.25rem auto 0; width:92%}
+.IndChaZ{ width:48%; padding-left:2%;}
+.IndChaZt{ font-size:0.13rem;margin-bottom:0.08rem;}
+.IndChaZ p{ font-size:0.1rem;line-height:0.16rem;}
+.IndChaP{ width:46%;}
+
+/**************登录**************/
+.LoginK{background-image:url(../images/loginb.jpg); background-attachment:fixed;background-repeat:no-repeat;background-position:bottom center;background-size:auto 100%;color:#333; height:100%;}
+.Login{ width:86%; padding-bottom:0.15rem; background:#FFF; margin:0.8rem auto 0; border-radius:6px;}
+.register{ width:86%; padding-bottom:0.15rem; background:#FFF; margin:0.8rem auto 0; border-radius:6px;}
+.LogTit{ text-align:center; font-size:0.14rem; line-height:0.2rem; padding-top:0.18rem; font-weight:600;}
+.logK{ width:2.2rem; margin:0 auto; height:0.4rem}
+.logIc{ width:0.3rem; height:0.3rem; display:block; background-repeat:no-repeat; background-position:center; background-color:#2f80f0; background-size:0.16rem}
+.logIn{height:0.3rem; line-height:0.3rem; background:none; border:none; width:1.7rem; padding:0 0.1rem; font-size:0.132rem;background:#eff2f5;}
+.logNr{ line-height:0.3rem; height:0.3rem; font-size:0.12rem; width:2.2rem; height:0.3rem; margin:0.05rem auto;}
+.logNr a{ color:#999;}
+.logNr a:hover{ color:#2f80f0;}
+.Login .Logreg{ margin:0 auto;}
+.register .Logreg{ margin:0 auto;}
+.logK span{ line-height:0.1rem; color:#e60012; font-size:0.1rem; display:block; padding-left:0.3rem;}
+/***************注册***************/
+.Regtit{ font-size:0.1rem; text-align:center; margin-bottom:0.1rem;}
+.logInw{ width:1rem;}
+.yzm{ display:block; width:0.65rem;}
+.Set_but{ border:none; display:block; width:0.65rem; font-size:0.1rem; line-height:0.3rem; height:0.3rem; text-align: center; color:#FFF; display:block;}
+.Regf{ text-align:center; font-size:0.1rem; color:#999; padding-top:0.1rem;}
+.Regf a{ color:#3087f2;}
+/*弹出*/
+.TcK{top:0%;left:6%;width:80%;border-radius:8px; padding:0 0.15rem 20%; max-height:100%; overflow:auto;}
+.TcRegT{ font-size:0.14rem; color:#333; text-align:center; font-weight:600; border-bottom:0.01rem solid #ccc; line-height:0.4rem; height:0.4rem;}
+.TcRegN{ font-size:0.11rem; color:#333; line-height:0.19rem; margin-top:0.1rem;}
+.TcRegP{ margin-bottom:0.04rem;}
+.TcRegN a{ color:#0e6bf9; display:block;}
+A.TcRegA{ width:1.3rem; height:0.3rem; line-height:0.3rem; text-align:center; border-radius:0.15rem; font-size:0.12rem; display:block; margin:0.1rem auto 0;}
+/**************登录错误****************/
+.Erro{ height:1.7rem; background:url(../images/erro.jpg) no-repeat center top; background-size: auto 100%; margin-top:0.4rem;}
+.ErroK{ width:65%; padding-left:35%; padding-top:0.6rem; color:#FFF; text-align:center;}
+.ErroT{font-size:0.15rem; font-weight:600; line-height:0.25rem;}
+a.Errlink{ font-size:0.11rem; line-height:0.18rem;color:#FFF; display:block;}
+a.Errlink span{ color:#febc67;}
+/**************联系我们****************/
+.ContK{ background:url(../images/contb.jpg) no-repeat center 0.4rem; background-size:auto 1.2rem; padding-top:0.4rem;}
+.ContTit{ width:92%; padding:0.2rem 4% 0; height:0.8rem; color:#FFF;}
+.ContTid{ font-size:0.16rem; font-weight:600; line-height:0.26rem;}
+.ContTid span{ font-size:0.14rem; padding-left:0.1rem; margin-bottom:0.05rem; display:inline-block;}
+.ContTit p{ font-size:0.12rem; line-height:0.16rem;}
+.ContD{ width:84%; background:#FFF;padding:0.25rem 4% 0.2rem; margin:0 auto; border-radius:0.06rem; position:relative;}
+.ContDK{height:0.8rem;font-size:0.13rem; width:90%; margin:0 auto;}
+.ContDp1{ background-image:url(../images/fticon01.png)}
+.ContDp2{ background-image:url(../images/fticon02.png)}
+.ContDp{ padding-left:0.3rem; background-repeat:no-repeat; background-position:left center; line-height:0.18rem; background-size:0.25rem; margin-bottom:0.05rem;}
+.ContDp span{display:block;}
+.ContDp p{color:#3e86ee; font-size:0.15rem; font-weight:600;}
+.ContM{ text-align:center; margin-bottom:0.12rem;}
+.ContM img{width:1rem;}
+.ContM p{ font-size:0.12rem; line-height:0.2rem;}
+.ContMat{ width:92%; padding:0.05rem; box-shadow:0 0 15px rgba(197,215,255,0.55); margin:0 auto;}
+
+/***************帮助中心**************/
+.HelpK{background-image:url(../images/helpb.png); background-size:70%; background-repeat:no-repeat; background-position:right bottom; color:#333; min-height:100%;}
+.Help{ width:90%; margin:0.2rem auto; padding-top:0.4rem;}
+.HelpT{ font-weight:600; text-align:center; font-size:0.15rem; line-height:0.3rem; color:#333;}
+.HelpD{display:flex;flex-wrap: wrap;}
+.HelpN{ width:100%;}
+.HelpNs{background:#FFF; margin-top:0.1rem;width:92%;padding:0.1rem 4%; border-radius:0.05rem; box-shadow:0 0 5px rgba(197,215,255,0.55);cursor: pointer;}
+.HelpQ{ padding-left:0.3rem; position:relative;line-height:0.22rem; font-size:0.13rem;}
+.HelpQ i,.HelpA i{ width:0.22rem; height:0.22rem; line-height:0.22rem; font-style:normal; font-size:0.14rem;text-align:center;font-weight:bold;position:absolute;top:0; left:0; border-radius:50%; display:block;}
+.HelpA i{FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ff7539,endColorStr=#ff2156);background: -ms-linear-gradient(left, #ff7539, #ff2156);background:-moz-linear-gradient(left,#ff7539,#ff2156);background:-webkit-gradient(linear, 0% 100%, 0% 0%,from(#ff7539), to(#ff2156));background:-webkit-gradient(linear, 0% 100%, 0% 0%, from(#ff7539), to(#ff2156));background: -webkit-linear-gradient(left, #ff7539, #ff2156);background:-o-linear-gradient(left, #ff7539, #ff2156);box-shadow:0 5px 10px rgba(255,45,82,0.45);color:#FFF;}
+.HelpA{padding-left:0.3rem; position:relative;font-size:0.12rem; line-height:0.19rem; min-height:0.17rem; margin-top:0.1rem; display:none;}
+.FHelp{ font-size:0.11rem; width:92%;text-align:center; color:#666; line-height:0.18rem; padding:0.1rem 4%;}
+
+/******************查询订单****************/
+.QuerB{background-image:url(../images/querb.png);background-size: auto 1.2rem;background-repeat:no-repeat;background-position:right bottom;color:#333;min-height:100%;}
+.QueT{ text-align:center; padding-top:0.55rem;}
+.QueT a{ color:#333; font-size:0.13rem; display:inline-block; margin:0 0.1rem; line-height:0.3rem;}
+.QueT a i{ display:block; width:0.25rem; height:0.02rem; border-radius:0.02rem; margin:0 auto;}
+.QueTao{ font-weight:600;}
+.QueTao i{ background:#333;}
+.QueD{ display:none;}
+.QueT1{ width:90%; padding:0.15rem 5%}
+/**/
+.search{ background:#FFF; border:0.01rem solid #9ec2f6; border-radius:0.04rem; height:0.34rem; overflow:hidden;}
+.searI{ line-height:0.34rem; height:0.34rem; padding-left:4%; width:70%; background:none; border:none; font-size:0.12rem; color:#666}
+a.searA{ color:#FFF; font-size:0.13rem; display:block; text-align:center; width:22%;line-height:0.34rem; height:0.34rem;}
+a.searA span{background:url(../images/search.png) no-repeat left center; background-size:0.16rem; padding-left:0.2rem; display:inline-block;}
+.QueKO{ background:#fff; overflow:hidden; margin-top:0.15rem; padding-bottom:0.15rem; border-radius:0.04rem;}
+.QueKOt{ margin-bottom:0.12rem; line-height:0.34rem; height:0.34rem; padding:0 5%; color:#FFF;}
+.QueKOt p{ font-size:0.12rem; width:75%; float:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.QueKOt a{background:url(../images/qued.png) no-repeat left center;background-size:0.1rem;font-size:0.1rem;padding-left:0.1rem;color:#FFF;line-height:0.34rem;height:0.34rem;display:block;}
+.QueTab{ display:none;}
+.QueTabk{ width:92%; margin:0 auto 0.1rem; border-top:0.01rem solid #ccc; border-left:0.01rem solid #ccc;}
+.QueTabk tr td{ padding:0.08rem 0.1rem; color:#333; font-size:0.1rem;border-bottom:0.01rem solid #ccc;border-right:0.01rem solid #ccc; line-height:0.18rem;}
+.QueTabk tr td.QueTr{ font-size:0.1rem; font-weight:600; background:#ededed; width:30%;}
+
+.QueZF{ padding-left:0.15rem; display:inline-block; background:url(../images/ques.png) no-repeat center left;background-size:0.12rem;}
+.QueZFsb{ padding-left:0.15rem; display:inline-block; background:url(../images/zfsb.png) no-repeat center left;background-size:0.12rem;}
+.QueTrC tr td{text-align:justify; padding:0.08rem 0.12rem;border-right:0.01rem solid #ccc;}
+.QueKOtx{ height:0.34rem; line-height:0.34rem; background:#ededed; border:0.01rem solid #ccc;width:92%; margin:0 auto 0.1rem; font-size:0.1rem; color:#333;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.QueKOtx span{ font-weight:600; text-align:center; color:#FFF; float:left; display:block; width:0.4rem; line-height:0.2rem; height:0.2rem; background:#4089ef; border-radius:0.05rem; margin-top:0.07rem; margin-left:0.05rem; margin-right:0.06rem;}
+.QueKOts{ width:90%; margin:0.1rem auto;}
+.QueKOtit{ font-size:0.13rem; font-weight:600; line-height:0.22rem;}
+.QueKOts p{ font-size:0.1rem; line-height:0.17rem;}
+
+.QueT2{background:#FFF; border-radius:8px; width:84%; padding:0.1rem 4%; margin:0.15rem auto}
+.QueST{ text-align:left; line-height:0.3rem; font-size:0.13rem; font-weight:600;}
+.QueI{ width:90%; line-height:0.3rem; height:0.3rem; border:0.01rem solid #ccc; font-size:0.12rem; padding:0 4.5%; margin-bottom:0.08rem;}
+.QueText{width:90%;line-height:0.18rem;height:0.6rem; border:0.01rem solid #ccc; font-size:0.12rem; padding:0.1rem 4.5%; margin-bottom:0.08rem;}
+.Queyzt{ display:block; width:30%;height:0.3rem; overflow:hidden; margin-right:0.01rem;}
+.Que_but{ width:31%;height:0.3rem; border-radius:0.15rem;}
+.QueIw2{ width:56%;}
+a.QueAN{ width:1rem; line-height:0.3rem; height:0.3rem; display:block; margin:0.1rem auto; text-align:center; border-radius:0.15rem; font-size:0.13rem;}
+
+.TcQue{ width:70%; height:3rem; left:11%; top:17%;}
+.TcQueN{ font-size:0.12rem; margin-bottom:0.08rem; line-height:0.18rem; text-align:justify;}
+.TcQueN span{ color:#5b9ef8; font-weight:600;}
+.TcQueT{ text-align:center; padding-top:0.15rem; padding-bottom:0.1rem;}
+.TcQueT img{ width:0.8rem;}
+.TcQueT p{ font-size:0.15rem; font-weight:600; line-height:0.25rem;}
+}
+
+.QueTrC{ border-right:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

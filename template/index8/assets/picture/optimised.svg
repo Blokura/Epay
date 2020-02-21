@@ -1,0 +1,44 @@
+<svg id="optimised_icon" xmlns="http://www.w3.org/2000/svg" width="169.376" height="143.38" viewBox="0 0 169.376 143.38">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #0479ec;
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #0479ec;
+      }
+
+      .cls-5 {
+        fill: #f2f8fb;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M677,2232.32a82.852,82.852,0,0,1,82.687,83.01c0,23.8-7.15,41.18-23.129,56.31-8.444.08-37.016,0-58.98,0-24.393,0-27.6-.51-62.033-0.77A83.079,83.079,0,0,1,677,2232.32Z" transform="translate(-592.312 -2230.31)"/>
+  <path class="cls-2" d="M612.436,2364.8s23.5-10.55,64.14-10.55,66.209,10.55,66.209,10.55" transform="translate(-592.312 -2230.31)"/>
+  <rect id="Rounded_Rectangle_19" data-name="Rounded Rectangle 19" class="cls-3" x="80.626" y="0.85" width="4.656" height="17.4" rx="2" ry="2"/>
+  <rect id="Rounded_Rectangle_19_copy" data-name="Rounded Rectangle 19 copy" class="cls-3" x="2" y="82.13" width="17.344" height="4.62" rx="2" ry="2"/>
+  <rect id="Rounded_Rectangle_19_copy_2" data-name="Rounded Rectangle 19 copy 2" class="cls-3" x="150.032" y="82.13" width="17.344" height="4.62" rx="2" ry="2"/>
+  <path id="Rounded_Rectangle_19_copy_3" data-name="Rounded Rectangle 19 copy 3" class="cls-4" d="M722.908,2267.7l9-9.03a2.32,2.32,0,0,1,3.271,3.29l-9,9.03A2.32,2.32,0,0,1,722.908,2267.7Z" transform="translate(-592.312 -2230.31)"/>
+  <path id="Rounded_Rectangle_19_copy_5" data-name="Rounded Rectangle 19 copy 5" class="cls-4" d="M700.724,2251.79l6.361-11.06a2.315,2.315,0,1,1,4.006,2.32l-6.361,11.06A2.315,2.315,0,1,1,700.724,2251.79Z" transform="translate(-592.312 -2230.31)"/>
+  <path id="Rounded_Rectangle_19_copy_6" data-name="Rounded Rectangle 19 copy 6" class="cls-4" d="M645.783,2254.12l-6.361-11.06a2.315,2.315,0,1,1,4.007-2.32l6.36,11.06A2.315,2.315,0,1,1,645.783,2254.12Z" transform="translate(-592.312 -2230.31)"/>
+  <path id="Rounded_Rectangle_19_copy_7" data-name="Rounded Rectangle 19 copy 7" class="cls-4" d="M613.141,2291.96l-12.288-3.31a2.319,2.319,0,0,1,1.2-4.48l12.287,3.3A2.323,2.323,0,0,1,613.141,2291.96Z" transform="translate(-592.312 -2230.31)"/>
+  <path id="Rounded_Rectangle_19_copy_8" data-name="Rounded Rectangle 19 copy 8" class="cls-4" d="M750.8,2287.5l-12.287,3.31a2.324,2.324,0,0,1-1.2-4.49l12.288-3.31A2.323,2.323,0,0,1,750.8,2287.5Z" transform="translate(-592.312 -2230.31)"/>
+  <ellipse class="cls-5" cx="84.688" cy="83.86" rx="32.969" ry="33.08"/>
+  <path class="cls-4" d="M716.205,2292.62c3.034,5.27-30.1,29.51-35.358,32.56a11.021,11.021,0,0,1-10.986-19.11C675.115,2303.03,713.171,2287.34,716.205,2292.62Z" transform="translate(-592.312 -2230.31)"/>
+  <circle class="cls-6" cx="84.11" cy="84.44" r="5.797"/>
+  <path id="Rounded_Rectangle_19_copy_4" data-name="Rounded Rectangle 19 copy 4" class="cls-4" d="M624.965,2272.28l-9.162-9.2a2.366,2.366,0,0,1,0-3.34,2.337,2.337,0,0,1,3.331,0l9.162,9.2A2.359,2.359,0,0,1,624.965,2272.28Z" transform="translate(-592.312 -2230.31)"/>
+</svg>

@@ -1,0 +1,235 @@
+﻿@charset "utf-8";
+
+/* 导航 */
+.navBD12{ border-bottom:1px solid #89c1ed;}
+.nav12{ height:60px; padding-top:14px;}
+.nav12-left{ float:left;}
+.nav12-right{ float:right;}
+.show-xs{ display:none;}
+
+/* 订单金额 */
+.order-amount12{ width:1010px; height:88px; padding:20px 35px; background:#fff; margin-top:35px;}
+.order-amount12 span{ font-size:16px; color:#434343;}
+.order-amount12-left{ float:left;}
+.order-amount12-left span{ line-height:30px;}
+.order-amount12-right{ float:right; line-height:50px;}
+.order-amount12-right strong{ font-size:30px; color:#e94832; font-weight:normal;}
+
+
+
+
+/*支付方式*/
+.PayMethod12{ width:1010px; padding:35px 35px; background:#fff; margin-top:36px;}
+.PayMethod12 h2{ font-size:16px; height:30px; line-height:30px; margin-bottom:20px;}
+.PayMethod12 ul{ overflow:hidden;}
+.PayMethod12 ul li{ width:120px; height:38px; padding: 20px 0 0 30px; margin-bottom:35px; margin-right:60px; float:left; cursor:pointer; border:1px solid #d8d8d8;}
+.PayMethod12 ul li.active{ border-color:#1a8ae1;}
+.PayMethod12 ul li img{ float:left; margin-right:16px; width:20px; height:20px; }
+.PayMethod12 ul li span{ float:left; position:relative; color:#323232;}
+.immediate_pay{ display:block;
+ width:165px;
+  height:54px;
+  line-height:54px;
+   background:#1a8ae1;
+	 font-size:18px;
+	  color:#fff;
+	  text-align:center;
+	  cursor:pointer;
+	  }
+.immediate_button{ display:block;
+ width:165px;
+  height:54px;
+  line-height:54px;
+   background:#1a8ae1;
+	 font-size:18px;
+	  color:#fff;
+	  text-align:center;
+	  cursor:pointer;
+	  }
+/*立即支付*/
+.immediate-pay12{ height:54px; background:#fff; margin-top:40px;}
+.immediate-pay12-left{ float:left; line-height:50px; margin-left:35px;}
+.immediate-pay12-left a { font-size: 18px;color: #1a8ae1;cursor: pointer;}
+.immediate-pay12-right{ float:right;}
+.immediate-pay12-right span{ float:left; margin:14px 24px 0 0;}
+.immediate-pay12-right span strong{ font-size:18px; color:#e94832;}
+.immediate-pay12-right .immediate_pay{ float:right;}
+
+/*充值卡*/
+.card12{ padding:24px 35px; width:1010px; background:#fff; margin-top:36px;}
+.card12-type{ overflow:hidden; height:74px; border-bottom:1px solid #dedede;}
+.card12-type li{ width:141px; height:46px; line-height:46px; text-align:center; border:1px solid #dedede; float:left;  margin-right:48px; cursor:pointer;}
+.card12-type li.active{ border-color:#1a8ae1;}
+.card12-money{ overflow:hidden; margin-top:22px; height:74px; border-bottom:1px solid #dedede;}
+.card12-money li{ width:76px; height:46px; line-height:46px; text-align:center; border:1px solid #dedede; float:left; margin-right:48px; cursor:pointer;}
+.card12-money li.active02{ border-color:#1a8ae1;}
+.card12-tips{ font-size:14px; line-height:50px;}
+.card12-tips span{ color:#cc2023;}
+.card12-input{ margin-top:10px;}
+.card12-input li{ overflow:hidden; margin-bottom:25px;}
+.card12-input li span{ float:left; font-size:20px; width:80px; line-height:36px;}
+.card12-input li input{ float:left; width:260px; padding-left:13px; height:36px; line-height:36px; border:1px solid #d8d8d8;}
+
+/*微信支付*/
+.wechart-pay12{ padding:35px 318px; width:444px; overflow:hidden;}
+.wechart-pay12 dl{ float:left;}
+.wechart-pay12 dl p{ font-size:14px; color:#989898; text-align:center; height:20px}
+.wechart-pay12-moblie{ float:right; width:170px; margin-top:16px;}
+.wechart-pay12-moblie img{ width:100%;}
+
+/* 产品体验首页 */
+.product_experience12 header{ background:url(../images/indexbg12.jpg) no-repeat; height:282px; padding-top:7rem; background-size:100%;}
+.product_experience12 .opTit01{ font-size:32px; color:#fff; margin-top:0;}
+.product_experience12 .Internet_increment_service10{ position:absolute; top:220px; left:50%; margin-left:-540px;}
+.product_experience12-menu{ height:140px; margin-bottom:70px;}
+.product_experience12-menu ol li{ height:140px;}
+.product_experience12-menu ol li dl{ width:245px; margin:0 auto; overflow:hidden;}
+.product_experience12-menu ol li dl dt{ float:left;}
+.product_experience12-menu ol li dl dd{ float:right; line-height:140px;}
+.product_experience12-menu ol li .dt01{ width:50px; height:57px; margin-top:42px; background:url(../images/product_experience12-h5.png) no-repeat;}
+.product_experience12-menu ol li .dt02{ width:56px; height:49px; margin-top:42px; background:url(../images/product_experience12-pc.png) no-repeat;}
+.product_experience12-menu ol li .dt03{ width:57px; height:57px; margin-top:42px; background:url(../images/product_experience12-app.png) no-repeat;}
+.product_experience12-menu ol li.active .dt01{ width:50px; height:57px; background:url(../images/product_experience12-h5color.png) no-repeat;}
+.product_experience12-menu ol li.active .dt02{ width:56px; height:49px; background:url(../images/product_experience12-pccolor.png) no-repeat;}
+.product_experience12-menu ol li.active .dt03{ width:57px; height:57px; background:url(../images/product_experience12-appcolor.png) no-repeat;}
+.product_experience12-menu{ box-shadow:0 5px 4px 1px #ebe9e9;}
+.product_experience12-menu ol li.active dd{ color:#1a8ae1;}
+.product_experience12-menu ol li.active{ background-color:transparent;}
+.product_experience12-main01{ width:625px; margin:0 auto; display:none;}
+.product_experience12-main01 dl{ overflow:hidden;}
+.product_experience12-main01 dl dt{ float:left;}
+.product_experience12-main01 dl dd{ float:right;}
+.product_experience12-main01 dl dd h2{ font-size:22px; margin-bottom:12px;}
+.product_experience12-main01 dl dd h3{ font-size:24px;}
+.product_experience12-main01 dl dd p{ font-size:14px; color:#a1a1a1;}
+.product_experience12-main01 .immediate_pay{ width:135px; height:42px; line-height:42px; color:#fff;}
+.product_experience12-main01 .immediate_button{ width:135px; height:42px; line-height:42px;}
+.product_experience12-main01 .immediate_pay:hover{ color:#fff;}
+.product_experience12-main01 .immediate_button:hover{ color:#fff;}
+.product_experience12-main02{ width:710px; text-align:center;}
+.product_experience12-main02 dl{ width:345px;}
+.product_experience12-main02 dl.andr{ float:left;}
+.product_experience12-main02 dl.ios{ float:right;}
+.product_experience12-main02 dl dt{ float:none;}
+.product_experience12-main02 dl dd{ float:none; font-size:18px; color:#a1a1a1; line-height:60px;}
+.product_experience12-main03{ width:320px; margin:0 auto; text-align:center;}
+.product_experience12-main03 dl dt{ float:none;}
+.product_experience12-main03 dl dd{ float:none;}
+
+/*支付成功&&失败*/
+.paystument12{ padding:25px 360px; width:360px; background:#fff; text-align:center; display:none;}
+.paystument12 h3{ font-size:18px; margin-top:20px;}
+.paystument12 h3 span{ font-size:18px;}
+.paystument12 h3 a{ font-size:18px; color:#e84832;}
+
+.paystument13{ padding:1px 360px; width:360px; background:#fff; text-align:left; display:none;}
+.paystument12 h4{ font-size:16px; margin-top:20px;}
+.paystument12 h4 span{ font-size:16px;}
+.paystument12 h4 a{ font-size:16px; color:#e84832;}
+
+.Return_experienceBtn{width:150px;height:45px;line-height:45px; margin:195px auto 270px;font-size:16px;}
+
+/*弹窗*/
+.pay_sure12{ width:100%; height:100%; position:fixed; left:0; top:0; z-index:99999; background:rgba(0%,0%,0%,0.3); display:none;}
+.pay_sure12 .pay_sure12-main{width:400px;
+						height:220px;
+  						position:absolute;
+   						left:50%;
+   						margin-left:-200px;
+    					top:15%;
+	   					background:#fff;
+		  				box-sizing:border-box;
+						text-align:center;
+						}
+.pay_sure12-main h2{ height:45px; line-height:45px; margin-bottom:20px; text-align:center; background:#f4f4f4; font-size:18px;}
+.pay_sure12-main h3,.pay_sure12-main p{ font-size:12px; color:#989898;}
+.pay_sure12-main .h3-01{ font-size:15px; color:#323232;}
+.pay_sure12-main h3 strong{ color:#989898;font-size:12px;font-weight:normal;}						
+.pay_sure12-btngroup{ width:250px; margin:20px auto 10px; overflow:hidden;}
+.pay_sure12-btngroup a.immediate_pay{ float:left;}
+.pay_sure12-btngroup a.immediate_button{ float:left;}
+.pay_sure12-btngroup a.immediate_payComplate{ margin-right:50px; width:100px; height:34px; line-height:34px;font-size:13px;} 
+.pay_sure12-btngroup a.immediate_payChange{ background-color:#f4f4f4; color:#323232; width:100px; height:34px; line-height:34px;font-size:13px;}
+
+/*底部*/
+.footer12{ text-align:center; color:#cbcbcb; margin-top:50px; margin-bottom:50px;clear:both;}
+
+
+/*首页弹窗*/
+.mt_agree{ width:100%; height:100%; position:fixed; left:0; top:0; z-index:99999; background:rgba(0%,0%,0%,0.3); display:none;}
+.mt_agree .mt_agree_main{width:500px;
+						margin-left:-250px;
+						height:auto;
+  						position:absolute;
+   						left:50%;
+    					top:15%;
+	   					background:#fff;
+						padding:2%;
+		  				box-sizing:border-box; }
+.mt_agree h2{ text-align:center; font-size:20px; line-height:50px; border-bottom:1px solid #0568a4;}
+.mt_agree p{ font-size:16px; text-align:center; line-height:50px;}
+.mt_agree a.close_btn{ display:block;
+					 width:30%;
+					  height:50px;
+					  line-height:50px;
+					   margin:20px auto;
+						background:#0568a4;
+						 color:#fff;
+						  font-size:18px;
+						   text-align:center;
+							 text-decoration:none;
+							 border-radius:30px;
+							}
+
+
+
+@media screen and (max-height:900px){
+	.navBD12{ margin-bottom:16px;}
+	.card12{ margin-top:0; padding:20px 35px;}
+	.immediate-pay12{ margin-top:16px;}
+	.order-amount12{ padding:16px 35px; margin-top:16px;}
+	.card12-input .card12-input-password{ margin-bottom:0;}
+	.PayMethod12{ margin-top:16px;}
+	.product_experience12-menu{ height:120px;}
+	.product_experience12-menu ol li{ height:120px;}
+	.product_experience12-menu ol li .dt01{ margin-top:32px;}
+	.product_experience12-menu ol li .dt02{ margin-top:32px;}
+	.product_experience12-menu ol li .dt03{ margin-top:32px;}
+	.product_experience12-menu ol li dl dd{ line-height:120px;}
+	.product_experience12 .Internet_increment_service10{ top:200px;}
+	.product_experience12 .opTit01{ margin-top:-10px;}
+	.product_experience12-menu{ margin-bottom:60px;}
+	.Return_experienceBtn{ margin:120px auto;}
+}
+
+@media screen and (max-width:768px){
+	.w1080{width:100%;}
+	.order-amount12{width:auto;}
+	.PayMethod12{width:auto;margin-top:0;}
+	.PayMethod12 ul li{margin-bottom:20px;}
+	.nav12-left{margin-left:16px;}
+	.nav12-left .hidden-xs{display:none;}
+	.nav12-right{float:left;margin-left:16px;}
+	.order-amount12-right{float:left;}
+	.PayMethod12 ul li{width:87%;float:none;}
+	.immediate-pay12-right{float:left;padding-left:15px;}
+	.PayMethod12 h2{clear:both;}
+	.show-lg{ display:none;}
+	.show-xs{ display:block;}
+	.wechart-pay12{width:100%; padding:16px;box-sizing:border-box;}
+	.wechart-pay12 dl{transform:scale(0.7)}
+	.wechart-pay12-moblie{width: 40%;margin-top: 50px;float:left;}
+	.card12{width:auto;clear:both;}
+	.card12-type{width:100%;}
+	.card12-type li{width:30%;margin-right:6px;font-size:14px;}
+	.card12-money{width:100%;height:150px;}
+	.card12-money li{ width:28%;margin:5px;}
+	.card12-tips{line-height:30px;}
+	.card12-input li input{width:90%;}
+	.immediate-pay12-right{margin:24px;}
+	.immediate_pay{width:120px;}
+	.immediate-pay12{height:auto;overflow:hidden;}
+	.paystument12{width:auto;padding:20px;box-sizing:border-box;}
+	.order-amount12{height:130px;margin-bottom:12px;}
+	.PayMethod12 ul li{ height:28px; padding: 10px 0 0 30px;}
+}

@@ -1,0 +1,42 @@
+<svg id="global_icon" xmlns="http://www.w3.org/2000/svg" width="150" height="149" viewBox="0 0 150 149">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f8fb;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #0479ec;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #0479ec;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="75.535" cy="74.5" r="72.375"/>
+  <path id="Ellipse_7_copy" data-name="Ellipse 7 copy" class="cls-2" d="M2197.52,2235.09c22.77,0,41.23,32.42,41.23,72.41s-18.46,72.41-41.23,72.41-41.24-32.42-41.24-72.41S2174.74,2235.09,2197.52,2235.09Z" transform="translate(-2122 -2233)"/>
+  <rect class="cls-3" x="73.44" width="4.18" height="149"/>
+  <rect id="Rectangle_23_copy" data-name="Rectangle 23 copy" class="cls-3" x="1.06" y="72.41" width="148.94" height="4.18"/>
+  <rect id="Rectangle_23_copy_2" data-name="Rectangle 23 copy 2" class="cls-3" x="11.53" y="37.78" width="126.94" height="4.19"/>
+  <rect id="Rectangle_23_copy_3" data-name="Rectangle 23 copy 3" class="cls-3" x="11.53" y="105.97" width="126.94" height="4.22"/>
+  <circle class="cls-4" cx="39.86" cy="39.875" r="12.58"/>
+  <circle class="cls-3" cx="39.86" cy="39.86" r="6.3"/>
+  <circle id="Ellipse_8_copy" data-name="Ellipse 8 copy" class="cls-4" cx="114.345" cy="108.08" r="12.595"/>
+  <path id="Ellipse_9_copy" data-name="Ellipse 9 copy" class="cls-5" d="M2236.33,2334.78a6.3,6.3,0,1,1-6.3,6.3A6.3,6.3,0,0,1,2236.33,2334.78Z" transform="translate(-2122 -2233)"/>
+  <circle id="Ellipse_8_copy_2" data-name="Ellipse 8 copy 2" class="cls-4" cx="12.595" cy="110.185" r="12.595"/>
+  <path id="Ellipse_9_copy_2" data-name="Ellipse 9 copy 2" class="cls-5" d="M2134.58,2336.87a6.3,6.3,0,1,1-6.3,6.3A6.3,6.3,0,0,1,2134.58,2336.87Z" transform="translate(-2122 -2233)"/>
+</svg>

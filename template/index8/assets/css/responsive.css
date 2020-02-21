@@ -1,0 +1,1076 @@
+/*========================================
+=            Style Responsive            =
+========================================*/
+@media only screen and (min-width: 1460px) {
+  .team-block .images img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1330px) and (max-width: 1440px) {
+  .base-slider .owl-prev,
+  .base-slider .owl-next {
+    margin-top: -58px;
+  }
+  .block-features img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1330px) {
+  header .menu li {
+    margin-right: 20px;
+  }
+  header .button-header .custom-btn {
+    width: 98px;
+  }
+  .user-slider .owl-nav .owl-next {
+    right: 50px !important;
+  }
+  .user-slider .owl-nav .owl-prev {
+    left: 50px !important;
+  }
+  .blog header .container {
+    width: 100%;
+  }
+  .block-features .col-5 {
+    padding-left: 0;
+  }
+  .block-features img {
+    margin-left: 0;
+  }
+  .block-features .row {
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 1320px) {
+  header > .container,
+  .service-page header .container {
+    width: 1300px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1139px;
+  }
+  .container.small {
+    width: 1020px;
+  }
+  .user-slider .owl-nav .owl-prev {
+    left: -118px;
+  }
+  .user-slider .owl-nav .owl-next {
+    right: -110px;
+  }
+  .user-slider .owl-nav .owl-next,
+  .user-slider .owl-nav .owl-prev {
+    margin-top: -5px;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /*==================================
+	=            Index.html            =
+	==================================*/
+  header.transparent {
+    padding: 20px 0 0;
+  }
+  header .button-header .custom-btn {
+    width: 91px;
+  }
+  header .menu li {
+    margin-right: 16px;
+  }
+  .base-slider h2 {
+    font-size: 28px;
+  }
+  .base-slider p {
+    font-size: 11px;
+  }
+  .base-slider .inside {
+    top: 50%;
+  }
+  .partner ul li {
+    margin-right: 60px;
+  }
+  .hosting-software ul li {
+    margin-right: 60px;
+    padding-right: 60px;
+  }
+  .our-team ul li {
+    width: 222px;
+  }
+  .pricing-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .pricing-list li {
+    width: 24%;
+  }
+  .pricing-list li h5 {
+    font-size: 16px;
+  }
+  .pricing-list li .custom-btn {
+    font-size: 12px;
+  }
+  .pricing-table {
+    margin-bottom: 40px;
+  }
+  .user-slider {
+    padding-bottom: 100px;
+  }
+  .search-domain h3 {
+    padding-top: 0;
+    margin-top: -6px;
+  }
+  .search-domain form input {
+    width: 360px;
+  }
+  /*=====  End of Index.html  ======*/
+  /*==================================
+	=            About.html            =
+	==================================*/
+  .team-block .col-6 {
+    margin-right: 70px;
+  }
+  .team-block.reverse .col-6 {
+    margin-left: 70px;
+  }
+  /*=====  End of About.html  ======*/
+  /*=========================================
+	=            service-page.html            =
+	=========================================*/
+  .service-page .search-domain .container,
+  .service-page footer .container {
+    width: 950px;
+  }
+  .service-page .container {
+    width: 950px;
+  }
+  .choice-plan {
+    padding-top: 145px;
+  }
+  .choice-plan .pricing-list li {
+    width: 30%;
+  }
+  .block-features .row {
+    justify-content: center;
+  }
+  .blog .container,
+  .blog .search-domain .container,
+  .blog footer .container {
+    width: auto;
+  }
+  .blog header .container {
+    width: 100%;
+  }
+  .block-features .col-5 {
+    padding-left: 0;
+  }
+  .block-features img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  /*=====  End of service-page.html  ======*/
+  /*==================================
+	=            order.html            =
+	==================================*/
+  .account-details {
+    width: auto;
+  }
+  .order {
+    margin-bottom: 120px;
+  }
+  .tab-content,
+  .login-bg {
+    padding-bottom: 150px;
+  }
+  /*=====  End of order.html  ======*/
+  /*====================================
+	=            contact.html            =
+	====================================*/
+  .form-contact {
+    margin: -200px auto 160px;
+  }
+  .social-icon li {
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    margin-right: 3px;
+  }
+  /*=====  End of contact.html  ======*/
+}
+@media only screen and (min-width: 992px) {
+  .mobile-menu-btn,
+  .logo-mobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  /*==================================
+	=            Index.html            =
+	==================================*/
+  header {
+    padding: 29px 0;
+    background-color: #0479ec;
+  }
+  header > .container {
+    display: none;
+  }
+  header.transparent {
+    padding: 0;
+    height: 58px;
+    background-color: #0479ec;
+  }
+  header.transparent.active {
+    height: 100%;
+  }
+  header .button-header .custom-btn {
+    width: 96px;
+  }
+  header .button-header .custom-btn .custom-btn,
+  header .button-header .custom-btn.login {
+    color: #fff;
+  }
+  header .menu li {
+    margin-right: 16px;
+  }
+  header .logo-mobile {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+  }
+  header .logo-mobile img {
+    max-width: 144px;
+  }
+  .mobile-menu .logo {
+    text-align: left;
+    padding: 10px 0 0 30px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: normal;
+  }
+  .base-slider h2 {
+    font-size: 18px;
+  }
+  .base-slider p {
+    font-size: 11px;
+  }
+  .base-slider .inside {
+    top: 50%;
+  }
+  .partner ul li {
+    margin-right: 15px;
+  }
+  .why-choose {
+    margin-bottom: 40px;
+  }
+  .why-choose .inside {
+    margin-bottom: 40px;
+  }
+  .hosting-software {
+    margin-bottom: 80px;
+  }
+  .hosting-software ul li {
+    margin-right: 35px;
+    padding-right: 35px;
+  }
+  .pricing-list li {
+    width: 48%;
+    margin-bottom: 15px;
+  }
+  .search-domain form {
+    margin-left: 0;
+  }
+  .pricing-table {
+    margin-bottom: 60px;
+  }
+  .user-slider {
+    margin-bottom: 100px;
+  }
+  footer .widget-footer {
+    width: 33%;
+    word-wrap: break-word;
+  }
+  footer .widget-footer:nth-child(3n+1) {
+    clear: both;
+  }
+  footer .widget-footer.last {
+    width: 33%;
+    padding-left: 0;
+  }
+  /*=====  End of Index.html  ======*/
+  /*==================================
+	=            About.html            =
+	==================================*/
+  .team-block {
+    margin-bottom: 60px;
+  }
+  .team-block .col-6 {
+    margin-right: 0;
+  }
+  .team-block h3 {
+    font-size: 21px;
+  }
+  .team-block.reverse .col-6 {
+    margin-left: 0;
+  }
+  .team-block.reverse h3 {
+    line-height: 30px;
+  }
+  .about-block {
+    background-position: top;
+  }
+  .our-team ul li {
+    width: 23%;
+  }
+  .breadcrumbs {
+    padding: 150px 0;
+  }
+  .login-bg,
+  .sign-up {
+    margin: 0 15px;
+  }
+  /*=====  End of About.html  ======*/
+  /*=========================================
+	=            service-page.html            =
+	=========================================*/
+  .service-page .container {
+    width: 750px;
+  }
+  .service-page .search-domain .container,
+  .service-page footer .container {
+    width: 750px;
+  }
+  .search-domain h3 {
+    padding-bottom: 10px;
+  }
+  .block-features .row {
+    align-items: center;
+    flex-direction: column;
+  }
+  .block-features img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .block-features .col-5 {
+    padding-left: 15px;
+  }
+  .choice-plan {
+    padding: 120px 0 0;
+  }
+  .choice-plan .pricing-list li {
+    width: 30%;
+    margin-right: 25px;
+  }
+  .choice-plan .pricing-list li .price {
+    font-size: 26px;
+  }
+  .bottom-info-plans ul li {
+    margin-right: 20px;
+  }
+  .user-slider .inside {
+    width: 100%;
+  }
+  /*=====  End of service-page.html  ======*/
+  /*===========================================
+	=            user-interface.html            =
+	===========================================*/
+  .tab-content {
+    padding-bottom: 220px;
+  }
+  /*=====  End of user-interface.html  ======*/
+  /*===================================
+	=            order.html             =
+	===================================*/
+  .content-order .tab-content,
+  .content-order .account-details {
+    width: auto;
+    float: none;
+  }
+  .total-order {
+    width: 100%;
+  }
+  .account-details .bottom {
+    margin-bottom: 90px;
+  }
+  .account-details form .form-group.col-2 input {
+    width: 344px;
+  }
+  /*=====  End of order.html   ======*/
+  /*================================
+	=            404.html            =
+	================================*/
+  .error-page .inside {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  /*=====  End of 404.html  ======*/
+  /*======================================
+	=            blog-list.html            =
+	======================================*/
+  .order {
+    margin-bottom: 30px;
+  }
+  .blog aside {
+    margin-left: 0;
+    margin-bottom: 120px;
+  }
+  .blog .container,
+  .blog .search-domain .container,
+  .blog footer .container {
+    width: auto;
+  }
+  .single-blog .related-post ul li:last-child {
+    padding-left: 0;
+  }
+  .post .post-images img {
+    height: auto;
+  }
+  /*=====  End of blog-list.html  ======*/
+  /*====================================
+	=            contact.html            =
+	====================================*/
+  .form-contact {
+    margin: -200px auto 150px;
+  }
+  .form-contact form,
+  .login-bg form,
+  .sign-up form {
+    margin: 0 15px;
+  }
+  .contact .mobile-menu .inside {
+    padding: 0;
+  }
+  .contact .bg-form .container {
+    width: 100%;
+  }
+  .contact .inside.left {
+    padding-right: 0;
+  }
+  .contact .inside.right {
+    padding-left: 0;
+  }
+  .login-bg form,
+  .sign-up form {
+    margin: 30px auto;
+  }
+  .login-page header {
+    background-color: #0479ec;
+  }
+  /*=====  End of contact.html  ======*/
+}
+@media only screen and (max-width: 768px) {
+  /*==================================
+	=            Index.html            =
+	==================================*/
+  header {
+    margin-bottom: 60px;
+  }
+  .base-slider .custom-btn {
+    font-size: 12px;
+    padding: 11px 22px;
+  }
+  .base-slider .inside {
+    width: 100%;
+  }
+  .base-slider .inside p {
+    font-size: 9px;
+  }
+  .title-head {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 50px;
+  }
+  .partner {
+    padding-bottom: 40px;
+    margin-bottom: 0;
+  }
+  .partner ul li {
+    margin-bottom: 15px;
+  }
+  .hosting-software ul li {
+    width: 50%;
+    float: left;
+    margin-right: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .hosting-software ul li:nth-child(2) {
+    border: none;
+  }
+  .pricing-list li {
+    width: 100%;
+    margin-right: 0;
+  }
+  .info-pricing {
+    padding: 53px 30px 22px 30px;
+  }
+  .info-pricing ul .custom-btn {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  .info-pricing ul li {
+    background-size: 7%;
+  }
+  .user-slider {
+    margin-bottom: 150px;
+  }
+  .user-slider .inside {
+    width: 100%;
+  }
+  .search-domain {
+    padding: 30px 0 45px 0;
+  }
+  .search-domain h3 {
+    margin-bottom: 15px;
+  }
+  .search-domain form input,
+  .search-domain form .form-group,
+  .search-domain form .custom-btn {
+    width: 100%;
+  }
+  .search-domain form .custom-btn {
+    margin-left: 0;
+  }
+  .pre-footer {
+    margin-bottom: -4%;
+  }
+  footer .widget-footer {
+    width: 50%;
+  }
+  footer .widget-footer:nth-child(2n+1) {
+    clear: both;
+  }
+  footer .widget-footer:nth-child(3n+1) {
+    clear: initial;
+  }
+  footer .widget-footer.last {
+    width: 50%;
+    padding-left: 0;
+  }
+  /*=====  End of Index.html  ======*/
+  /*==================================
+	=            About.html            =
+	==================================*/
+  .info-block {
+    padding: 35px 0;
+    margin-bottom: 40px;
+  }
+  .info-block p {
+    font-size: 22px;
+  }
+  .team-block .col-6 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .team-block .row {
+    flex-direction: column;
+  }
+  .team-block .images {
+    padding-right: 15px;
+  }
+  .team-block.reverse {
+    flex-direction: column-reverse;
+  }
+  .team-block.reverse .col-6 {
+    width: 100%;
+  }
+  .team-block.reverse .images img {
+    padding-left: 15px;
+  }
+  .team-block .images img {
+    width: auto;
+    margin-left: 0;
+  }
+  .about-block .hosting-software ul li {
+    width: 50%;
+  }
+  .about-block .hosting-software ul li:first-child,
+  .about-block .hosting-software ul li:last-child {
+    width: 50%;
+    text-align: center;
+  }
+  .our-team ul {
+    margin-bottom: 0;
+  }
+  .our-team ul li {
+    width: 49%;
+    margin-right: 3px;
+    margin-bottom: 20px;
+  }
+  .our-team ul li:nth-child(2n+1) {
+    clear: both;
+  }
+  .user-slider .owl-prev,
+  .user-slider .owl-next {
+    display: none;
+  }
+  /*=====  End of About.html  ======*/
+  /*=========================================
+	=            service-page.html            =
+	=========================================*/
+  .service-page .container {
+    width: auto;
+  }
+  .service-page .search-domain .container,
+  .service-page footer .container {
+    width: auto;
+  }
+  .choice-plan {
+    margin-bottom: 60px;
+  }
+  .choice-plan h2 {
+    font-size: 32px;
+  }
+  .choice-plan .pricing-list li {
+    width: 48%;
+    margin-right: 0;
+  }
+  .tab-content a {
+    font-size: 11px;
+  }
+  .block-features .col-5 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+  }
+  .block-features .row {
+    flex-direction: column;
+  }
+  .block-features img {
+    margin-left: 0;
+  }
+  .bottom-info-plans {
+    padding: 260px 0 80px 0;
+  }
+  .bottom-info-plans ul li {
+    margin-bottom: 15px;
+  }
+  .info-plan {
+    padding-bottom: 40px;
+  }
+  .info-plan p {
+    margin-bottom: 30px;
+  }
+  .info-plans table tr {
+    padding: 0 15px;
+    display: block;
+  }
+  .info-plans table tr td {
+    padding: 15px !important;
+    width: 23% !important;
+    display: inline-block;
+  }
+  .search-domain form .select-options {
+    left: 0;
+  }
+  .select-options {
+    width: 100%;
+  }
+  .select-options li {
+    padding: 10px;
+  }
+  /*=====  End of service-page.html  ======*/
+  /*============================================
+	=            user-interface.html             =
+	============================================*/
+  .top-panel .nav li {
+    margin-right: 15px;
+  }
+  .top-panel .nav li a {
+    font-size: 11px;
+  }
+  .my-account .tab-content {
+    padding-bottom: 20px;
+  }
+  .tab-content .content {
+    width: 100%;
+  }
+  .payment-history,
+  .password {
+    width: 100%;
+  }
+  /*=====  End of user-interface.html   ======*/
+  /*===================================
+	=             order.html            =
+	===================================*/
+  .account-details form .form-group.col-2 input {
+    width: 100%;
+  }
+  .account-details .bottom {
+    margin-bottom: 60px;
+  }
+  .total-order {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .order-page .tab-content .content {
+    padding: 15px;
+  }
+  .order-page .tab-content div > img {
+    margin-left: 0;
+  }
+  /*=====  End of  order.html  ======*/
+  /*=======================================
+	=             blog-list.html            =
+	=======================================*/
+  .single-blog.container {
+    width: 100%;
+  }
+  .single-blog .content-post .quote {
+    padding-left: 0;
+  }
+  .single-blog .content-post ul li {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .single-blog .content-post ul li:first-child {
+    margin-right: 0;
+  }
+  .single-blog .related-post {
+    margin-bottom: 160px;
+  }
+  .single-blog .related-post ul li {
+    width: 100%;
+    float: none;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  .blog aside {
+    margin-bottom: 170px;
+  }
+  /*=====  End of  blog-list.html  ======*/
+  /*====================================
+	=            contact.html            =
+	====================================*/
+  .info-block-contact:after {
+    display: none;
+  }
+  .form-contact {
+    width: 100%;
+  }
+  /*=====  End of contact.html  ======*/
+  /*==================================
+	=            login.html            =
+	==================================*/
+  .login-bg,
+  .sign-up {
+    padding-bottom: 110px;
+  }
+  .login-bg form,
+  .sign-up form {
+    width: 100%;
+  }
+  /*=====  End of login.html  ======*/
+}
+@media only screen and (max-width: 480px) {
+  /*==================================
+	=            Index.html            =
+	==================================*/
+  .base-slider {
+    padding-top: 55px;
+  }
+  .base-slider .owl-prev,
+  .base-slider .owl-next {
+    display: none;
+  }
+  .base-slider .inside {
+    margin-top: -15px;
+  }
+  .base-slider .inside p {
+    line-height: 15px;
+    margin-bottom: 10px;
+  }
+  .base-slider h2 {
+    font-size: 13px;
+    line-height: normal;
+  }
+  .base-slider .custom-btn {
+    font-size: 10px;
+    padding: 10px 16px;
+  }
+  .partner {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  .partner ul {
+    flex-direction: column;
+  }
+  .partner ul li {
+    width: 50%;
+    margin-right: 0;
+  }
+  .hosting-software ul li span {
+    font-size: 12px;
+  }
+  .title-head {
+    font-size: 16px;
+  }
+  .info-pricing {
+    padding: 30px 15px 10px 15px;
+  }
+  .info-pricing ul {
+    width: 100%;
+    float: none;
+  }
+  .info-pricing ul.right {
+    padding-left: 0;
+  }
+  .info-pricing ul li {
+    background-size: 8%;
+  }
+  .pricing-table {
+    margin-bottom: 30px;
+  }
+  .user-slider .owl-nav .owl-prev,
+  .user-slider .owl-nav .owl-next {
+    display: none;
+  }
+  .search-domain h3 {
+    font-size: 24px;
+  }
+  .search-domain form input {
+    padding-left: 15px;
+  }
+  footer {
+    padding-top: 60px;
+  }
+  footer .widget-footer {
+    width: 100%;
+    text-align: center;
+  }
+  footer .widget-footer.last {
+    width: 100%;
+  }
+  .widget-footer {
+    margin-bottom: 40px;
+  }
+  /*=====  End of Index.html  ======*/
+  /*==================================
+	=            About.html            =
+	==================================*/
+  .breadcrumbs {
+    padding: 100px 0;
+  }
+  .our-team ul li {
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .info-block p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+  }
+  .info-plan p {
+    margin-bottom: 30px;
+  }
+  .team-block h3 {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+  .team-block.reverse h3 {
+    font-size: 24px;
+  }
+  .about-block .hosting-software {
+    display: inline-block;
+  }
+  .error-page .inside h2 {
+    font-size: 125px;
+  }
+  .error-page .inside h4 {
+    font-size: 26px;
+    letter-spacing: 0;
+  }
+  .error-page .inside p {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  /*=====  End of About.html  ======*/
+  /*=========================================
+	=            service-page.html            =
+	=========================================*/
+  .choice-plan h2 {
+    font-size: 20px;
+  }
+  .choice-plan .nav-tabs li a {
+    font-size: 10px;
+    padding: 6px 16px;
+  }
+  .choice-plan .pricing-list li {
+    width: 100%;
+  }
+  .bottom-info-plans .title-head {
+    margin-top: 40px;
+  }
+  .info-plans table thead tr td {
+    font-size: 10px;
+  }
+  .info-plans table tr {
+    padding: 0 15px;
+    width: 100%;
+    display: inline-block;
+  }
+  .info-plans table tr td {
+    float: left;
+    padding: 6px !important;
+    width: 25% !important;
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  .info-plans table tr td.text-left {
+    text-align: center;
+  }
+  .info-plans table tr td img {
+    width: 12px;
+  }
+  .info-plans table tr td b {
+    font-size: 8px;
+  }
+  /*=====  End of service-page.html  ======*/
+  /*===========================================
+	=            user-interface.html            =
+	===========================================*/
+  .top-panel {
+    padding: 15px 0;
+    margin-bottom: 50px;
+  }
+  .top-panel .nav li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .tab-content {
+    padding-bottom: 0;
+  }
+  .tab-content h5 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .tab-content h6 {
+    font-size: 16px;
+  }
+  .tab-content .content {
+    text-align: center;
+    display: inline-block;
+  }
+  .tab-content .content a {
+    font-size: 15px;
+  }
+  .tab-content .center {
+    padding: 0;
+    margin: 20px 0;
+    flex-direction: column;
+  }
+  .tab-content .last {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .my-account .content > div {
+    margin-bottom: 20px;
+  }
+  .my-account .content .center,
+  .my-account .content .last {
+    width: 50%;
+    float: left;
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+  }
+  .my-account #information .content div,
+  .my-account #payments .content div {
+    width: 50%;
+    float: left;
+    text-align: left;
+  }
+  #plan .content .last a {
+    margin-bottom: 37px;
+  }
+  /*=====  End of user-interface.html  ======*/
+  /*==================================
+	=            order.html            =
+	==================================*/
+  .order-page .breadcrumbs {
+    padding: 110px 0 83px;
+    margin-bottom: 40px;
+  }
+  .order-page .breadcrumbs h1 {
+    font-size: 32px;
+  }
+  .order-page .tab-content .content {
+    width: 100%;
+  }
+  .order-page .tab-content .content > div {
+    margin-bottom: 20px;
+  }
+  .order-page .tab-content .content .center,
+  .order-page .tab-content .content .last {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-left: 0;
+    margin: 0;
+  }
+  .order-page .tab-content .center {
+    padding-right: 0;
+  }
+  .tab-content a {
+    text-decoration: underline;
+    border-bottom: none;
+  }
+  .content-order .first {
+    padding-left: 0;
+  }
+  .account-details form .form-group.col-2 {
+    width: 100%;
+  }
+  .account-details form .form-group.col-2:nth-child(2),
+  .account-details form .form-group.col-2:nth-child(5) {
+    padding-left: 0;
+  }
+  /*=====  End of order.html  ======*/
+  /*======================================
+	=            blog-list.html            =
+	======================================*/
+  .post .top-post a {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .single-blog .related-post ul li a {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  /*=====  End of blog-list.html  ======*/
+  /*====================================
+	=            contact.html            =
+	====================================*/
+  .form-contact form,
+  .login-bg form,
+  .sign-up form {
+    padding: 30px 15px;
+  }
+  .login-page header {
+    margin-bottom: 60px;
+  }
+  .login-bg form h2,
+  .sign-up form h2 {
+    margin-bottom: 20px;
+  }
+  .login-bg form .form-group,
+  .sign-up form .form-group {
+    margin-bottom: 35px;
+  }
+  .login-bg form button,
+  .sign-up form button {
+    margin-top: 20px;
+  }
+  /*=====  End of contact.html  ======*/
+}
+/*=====  End of Style Responsive  ======*/

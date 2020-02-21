@@ -1,0 +1,179 @@
+@charset "utf-8";
+/*头部样式*/
+.header_common{
+	width: 100%;
+    min-width: 1200px;
+    height: 500px;
+    background: url(../images/header_combg.png) no-repeat left top;
+}
+/*顶部样式*/
+.navBox{
+	width: 100%;
+    padding: 18px 45px 15px 100px;
+    overflow: hidden;
+    height: 100px;
+}
+.navBox .logo{
+	width: 177px;
+	height: 51px;
+}
+.navBox .logo img{
+	width: 100%;
+	height: 100%;
+}
+.navBox .navBox_right .nav li{
+	padding: 6px 25px;
+	line-height: 42px;
+	font-family: simhei;
+}
+.navBox .navBox_right .nav li a{
+    display: block;
+    //font-family:simhei;
+    color: #aabdf1;
+    font-size: 15px;
+    padding: 0 4px;
+    border-bottom: 2px solid rgba(255,255,255,0);
+    -webkit-transition:all 0.1s;
+    -moz-transition:all 0.1s;
+    -o-transition:all 0.1s;
+    transition:all 0.1s;
+}
+.navBox .navBox_right .nav li a:hover{
+	border-bottom: 2px solid #fff;
+	font-weight: bold;
+	color: #fff;
+	-webkit-transform: scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.navBox .navBox_right .nav li a.active{
+	color: #fff;
+	font-weight: bold;
+	border-bottom: 2px solid rgba(255,255,255,1.0);
+	-webkit-transform: scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.navBox .navBox_right .btn_common{
+	display: block;
+	//font-family:simhei;
+	width: 100px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 27px;
+	margin-top: 6px;
+}
+.navBox .navBox_right .btn_common:hover{
+	background: #fff;
+	color: #4964de;
+}
+.navBox .navBox_right .btn_common.active{
+	background: #fff;
+	color: #4964de;
+}
+/*右侧社交固定*/
+.right_fixed{
+	position: fixed;
+	bottom: 60px;
+	right: 0;
+	width: 160px;
+	height: 240px;
+	z-index: 100;
+}
+.right_fixed .right_conBox{
+	cursor: pointer;
+	transition: all 0.8s;
+	width: 160px;
+	height: 60px;
+}
+.right_fixed .right_conBox .rightPhoto_common{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #dddddd;
+	border-bottom: none;
+}
+.right_fixed .right_conBox .right_tellPhoto{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #FFFFFF url(../images/right_tell1.png) no-repeat center/23px 31px;
+}
+.right_fixed .right_conBox .right_qqPhoto{
+	border-bottom: 1px solid #dddddd;
+	background: #FFFFFF url(../images/qq.png) no-repeat center/26px 28px;
+}
+.rightShow_common{
+	width: 160px;
+	height: 60px;
+	overflow: hidden;
+	border: 1px solid #4E7DFF;
+	display: none;
+}
+.right_tellShow{
+	border: 1px solid #4E7DFF;
+	border-bottom: none;
+}
+.right_qqShow{
+	border: 1px solid #4E7DFF;
+}
+.rightImg_comm{
+	width: 60px;
+	height: 58px;
+}
+.right_tellShow .right_tellImg{
+	background: #4E7DFF url(../images/right_tell2.png) no-repeat 19px center/23px 31px;
+}
+.rightShow_common .right_qqImg{
+	background: #4E7DFF url(../images/qq2.png) no-repeat center/26px 28px;
+}
+.rightNum_comm{
+	width: 98px;
+	height: 58px;
+	background: #4e7dff;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 58px;
+}
+
+.right_fixed .right_qq{
+	width: 160px;
+	height: 60px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+}
+.right_fixed .right_qq .right_qqPhoto{
+	width: 60px;
+	height: 58px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	background: #FFFFFF url(../images/qq.png) no-repeat center/26px 28px;
+}
+.right_fixed .right_scrollTop{
+	width: 160px;
+	height: 60px;
+}
+.right_fixed .right_scrollTop .right_scrollTopPhoto{
+	width: 60px;
+	height: 60px;
+	background: #FFFFFF url(../images/scrolltop.png) no-repeat 21px 12px/17px 19px;
+	border: 1px solid #dddddd;
+	border-top: none;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 12px;
+	color: #666666;
+	line-height: 82px;
+	text-align: center;
+	cursor: pointer;
+}
+.right_fixed .right_scrollTop .right_scrollTopPhoto:hover{
+	background: #4E7DFF url(../images/scrolltop2.png) no-repeat 21px 12px/17px 19px;
+	color: #FFFFFF;
+	border: 1px solid #4E7DFF;
+}

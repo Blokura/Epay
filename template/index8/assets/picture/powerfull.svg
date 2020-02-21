@@ -1,0 +1,48 @@
+<svg id="power_features_icon" data-name="power features icon" xmlns="http://www.w3.org/2000/svg" width="149" height="163.46" viewBox="0 0 149 163.46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f8fb;
+      }
+
+      .cls-1, .cls-4 {
+        stroke: #0479ec;
+        stroke-width: 4px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #0479ec;
+      }
+
+      .cls-3 {
+        fill: #d3e5f7;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_17" data-name="Rounded Rectangle 17" class="cls-1" d="M1359,2245h135a5,5,0,0,1,5,5v109c0,0.11-2.24,0-5,0H1359c-2.76,0-5-.09-5,0V2250A5,5,0,0,1,1359,2245Z" transform="translate(-1352 -2219.88)"/>
+  <rect class="cls-2" x="1" y="46.12" width="148" height="4"/>
+  <circle class="cls-2" cx="14.5" cy="36.62" r="3.5"/>
+  <circle id="Ellipse_10_copy" data-name="Ellipse 10 copy" class="cls-2" cx="23.5" cy="36.62" r="3.5"/>
+  <circle id="Ellipse_10_copy_2" data-name="Ellipse 10 copy 2" class="cls-2" cx="32.5" cy="36.62" r="3.5"/>
+  <rect id="Rounded_Rectangle_18" data-name="Rounded Rectangle 18" class="cls-3" x="12" y="58.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy" data-name="Rounded Rectangle 18 copy" class="cls-3" x="12" y="83.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_2" data-name="Rounded Rectangle 18 copy 2" class="cls-3" x="12" y="107.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_3" data-name="Rounded Rectangle 18 copy 3" class="cls-3" x="38" y="58.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_3-2" data-name="Rounded Rectangle 18 copy 3" class="cls-3" x="38" y="83.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_3-3" data-name="Rounded Rectangle 18 copy 3" class="cls-3" x="38" y="107.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_4" data-name="Rounded Rectangle 18 copy 4" class="cls-3" x="63" y="58.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_4-2" data-name="Rounded Rectangle 18 copy 4" class="cls-3" x="63" y="83.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_4-3" data-name="Rounded Rectangle 18 copy 4" class="cls-3" x="63" y="107.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_5" data-name="Rounded Rectangle 18 copy 5" class="cls-3" x="89" y="58.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_5-2" data-name="Rounded Rectangle 18 copy 5" class="cls-3" x="89" y="83.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_5-3" data-name="Rounded Rectangle 18 copy 5" class="cls-3" x="89" y="107.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_6" data-name="Rounded Rectangle 18 copy 6" class="cls-3" x="114" y="58.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_6-2" data-name="Rounded Rectangle 18 copy 6" class="cls-3" x="114" y="83.12" width="19" height="19" rx="5" ry="5"/>
+  <rect id="Rounded_Rectangle_18_copy_6-3" data-name="Rounded Rectangle 18 copy 6" class="cls-3" x="114" y="107.12" width="19" height="19" rx="5" ry="5"/>
+  <path class="cls-4" d="M1393,2312l66-82-23,67h24l-62,76,22-61h-27Z" transform="translate(-1352 -2219.88)"/>
+</svg>

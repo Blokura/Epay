@@ -1,0 +1,3249 @@
+/*
+Theme Name:     qpay
+知宇软件 zuy.cn 深圳知宇信息科技有限公司
+*/
+/**
+	Navigation Files
+
+	01. Info
+	02. Reset
+	03. Base Style
+	04. Header Style
+	05. Elements Style
+	06. Slider Style
+	07. Footer Style
+	08. About Style
+	09. Blog Style
+	10. Single Blog Style
+	11. My Account Style
+	12. Contact Style
+	13. Widget Style
+	14. 404Page Style
+	15. Order Style
+	16. Service Page Style
+	17. Mobile Menu Style
+	18. Login Style
+
+ */
+/*=================================
+=            02. Reset            =
+=================================*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+}
+button:focus {
+  outline: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+select::-ms-expand {
+  display: none;
+}
+label {
+  font-weight: normal;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+iframe {
+  width: 100%;
+}
+/*=====  End of 02. Reset  ======*/
+/*======================================
+=            03. Base Style            =
+======================================*/
+/**
+	Navigation File
+
+	01. Global Style
+	02. Input
+	03. Title Head
+	04. Custom Fonts
+
+ */
+/* 01. Global Style
+   ==================================== */
+body {
+  font-weight: 400;
+  font-family: 'Microsoft Yahei', serif;
+}
+.wrapper {
+  position: relative;
+}
+h1 {
+  font-size: 70px;
+  line-height: 70px;
+}
+h2 {
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 2px;
+}
+h3 {
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: 2px;
+}
+h4 {
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 3px;
+}
+h5 {
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+h6 {
+  font-size: 18px;
+  line-height: 24px;
+}
+a {
+  display: block;
+  transition: 0.2s linear;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+p {
+  color: #7782aa;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+ul li,
+ol li {
+  color: #7782aa;
+  font-size: 15px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.list {
+  margin-bottom: 40px;
+  list-style: initial;
+}
+.list-number {
+  list-style: decimal;
+}
+.modal {
+  padding-right: 0 !important;
+}
+#counter b {
+  font-weight: normal;
+}
+/* 02. Input
+   ==================================== */
+input {
+  color: #524f6f;
+  background-color: transparent;
+}
+input::-webkit-input-placeholder {
+  font-size: 16px;
+}
+input::-moz-placeholder {
+  font-size: 16px;
+}
+input:-ms-input-placeholder {
+  font-size: 16px;
+}
+input:-moz-placeholder {
+  font-size: 16px;
+}
+/* 03. Title Head
+   ==================================== */
+.bg-gray {
+  background-color: #f6fafd;
+}
+.title-head {
+  text-align: center;
+  font-size: 32px;
+  color: #39335b;
+  margin-bottom: 60px;
+  letter-spacing: 3px;
+}
+.animatedParent {
+  overflow: hidden;
+}
+/* 04. Custom Fonts
+   ==================================== */
+
+@font-face {
+  font-family: "AthelasItalic";
+  src: url("../fonts/athelasitalic.eot") format("embedded-opentype"), url("../fonts/athelasitalic.ttf") format("truetype"), url("../fonts/athelasathelasitalic.woff") format("woff"), url("../fonts/athelasathelasitalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/*=====  End of 03. Base Style  ======*/
+/*========================================
+=            03. Header Style            =
+========================================*/
+/* 01. Header
+   ==================================== */
+header {
+  padding: 50px 0;
+  margin-bottom: 90px;
+  position: relative;
+  background-color: #0479ec;
+}
+header.transparent {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 50px 0 0;
+  position: absolute;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+header.transparent .logo-mobile {
+  top: 10px;
+  -ms-transform: translate(0);
+      transform: translate(0);
+}
+header.active {
+  padding: 0;
+  background-color: #1f7fe2;
+}
+header.active .mobile-menu {
+  display: inline-block;
+}
+header.active .logo-mobile {
+  display: none;
+}
+header .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+}
+header .logo img {
+  max-width: 144px;
+}
+header .menu {
+  text-align: right;
+  margin-right: 24px;
+}
+header .menu li {
+  position: relative;
+  display: inline-block;
+  margin-right: 41px;
+  margin-bottom: 0;
+}
+header .menu li:last-child {
+  margin-right: 0;
+}
+header .menu li:before {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  width: 24px;
+  height: 2px;
+  opacity: 0;
+  transition: 0.2s linear;
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+header .menu li:hover:before {
+  opacity: 1;
+}
+header .menu a {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+header .menu .children:hover .sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+header .menu .children:after {
+  content: "";
+  width: 130px;
+  height: 18px;
+  bottom: -17px;
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+  left: 50%;
+  background-color: transparent;
+  position: absolute;
+}
+header .menu .sub-menu {
+  top: 40px;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+  position: absolute;
+  text-align: left;
+  width: 195px;
+  z-index: 9;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 5px;
+  box-shadow: 1px 2px 40px rgba(28, 30, 32, 0.14);
+  background-color: #fff;
+  transition: 0.3s linear;
+}
+header .menu .sub-menu:before {
+  content: "";
+  top: -7px;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: inline-block;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 7px solid #fff;
+  position: absolute;
+}
+header .menu .sub-menu li {
+  margin: 0;
+  padding: 14px 20px;
+  display: block;
+}
+header .menu .sub-menu li:first-child {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+header .menu .sub-menu li:last-child {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+header .menu .sub-menu li:hover {
+  background-color: #e2eaf3;
+}
+header .menu .sub-menu li:hover a {
+  color: #39335b;
+}
+header .menu .sub-menu li:before {
+  display: none;
+}
+header .menu .sub-menu li a {
+  color: rgba(35, 120, 236, 0.9);
+}
+header .button-header {
+  text-align: right;
+  margin-right: 7px;
+}
+header .button-header .custom-btn {
+  width: 113px;
+  color: #fff;
+  box-shadow: 1px 1px 22px rgba(98, 129, 157, 0.4);
+  border-radius: 5px;
+  background: #42cbd1 linear-gradient(69deg, #37ddcb 0%, #42cbd1 80%, #42cbd1 100%);
+  letter-spacing: 1px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 15px;
+  text-transform: none;
+}
+header .button-header .custom-btn.login {
+  margin-right: 7px;
+  box-shadow: 1px 1px 22px rgba(14, 21, 34, 0.19);
+  border-radius: 5px;
+  background: #5791ef none;
+}
+header .button-header .custom-btn.login:hover {
+  color: #fff;
+  background-color: #6b9ef1;
+}
+header .button-header .custom-btn:hover {
+  opacity: 0.9;
+}
+/*=====  End of 03. Header Style  ======*/
+/*=========================================
+=            04. Elements Less            =
+=========================================*/
+/**
+	Navigation File
+
+	1. Custom Btn
+	2. Owl Nav
+	3. Partner
+	4. Why Choose
+	5. Hosting Software
+	6. Pricing Table
+	7. User Slider
+	8. Search Domain
+	9. Social Icon
+	10.Breadcrumbs
+
+ */
+/* 01. Custom Btn
+   ==================================== */
+.custom-btn {
+  padding: 14px 40px;
+  font-size: 15px;
+  color: #fff;
+  box-shadow: 1px 1px 11px rgba(98, 129, 157, 0.4);
+  border-radius: 7px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #0479ec;
+}
+.custom-btn:hover {
+  color: #fff;
+}
+.custom-btn.green {
+  border: none;
+  padding: 15px 71px;
+  background: #0479ec linear-gradient(69deg, #37ddcb 0%, #42cbd1 80%, #42cbd1 100%);
+}
+.custom-btn.green:hover {
+  color: #fff;
+  background-image: linear-gradient(69deg, rgba(55, 221, 203, 0.9) 0%, rgba(66, 203, 209, 0.9) 80%, rgba(66, 203, 209, 0.9) 100%);
+}
+.custom-btn.blue {
+  color: #0479ec;
+  padding: 14px 38px;
+  border: 1px solid #186ae1;
+  box-shadow: none;
+  background-color: transparent;
+}
+.custom-btn.blue:hover {
+  color: #fff;
+  background-color: #186ae1;
+}
+/* 02. Owl Nav
+   ==================================== */
+.owl-carousel {
+  cursor: url(../template/index/default/image/drag.png) 16 9, ew-resize;
+}
+.owl-nav {
+  position: static;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  top: 50%;
+  font-size: 0;
+  margin-top: -20px;
+  -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+  position: absolute;
+}
+.owl-nav .owl-prev i,
+.owl-nav .owl-next i {
+  font-size: 36px;
+  color: #2f395d;
+}
+.owl-nav .owl-prev {
+  left: 50px;
+}
+.owl-nav .owl-next {
+  right: 50px;
+}
+.owl-dots {
+  text-align: center;
+}
+.owl-dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0 1px 7px 1px rgba(119, 119, 119, 0.16);
+}
+.owl-dots .owl-dot {
+  display: inline-block;
+  margin-right: 10px;
+}
+.owl-dots .owl-dot:last-child {
+  margin-right: 0;
+}
+/* 03. Partner
+   ==================================== */
+.partner {
+  text-align: center;
+  padding-bottom: 47px;
+  margin-bottom: 65px;
+  border-bottom: 2px solid rgba(219, 234, 248, 0.6);
+}
+.partner h5 {
+  font-size: 15px;
+  margin-bottom: 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Microsoft Yahei', serif;
+}
+.partner .partner-slider .owl-stage {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.partner .partner-slider .owl-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.partner .partner-slider .item img {
+  width: 140px;
+  transition: 0.2s linear;
+}
+.partner .partner-slider .item:hover img {
+  -ms-transform: scale(1.1);
+      transform: scale(1.1);
+}
+/* 04. Why Choose
+   ==================================== */
+.why-choose {
+  margin-bottom: 88px;
+}
+.why-choose .inside {
+  padding: 70px 39px 38px 39px;
+  text-align: center;
+  box-shadow: 1px 1px 22px rgba(157, 184, 209, 0.19);
+  border-radius: 7px;
+  background-color: #fff;
+}
+.why-choose .inside a {
+  color: #39335b;
+  font-size: 18px;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.why-choose .inside a.read-more {
+  margin-bottom: 0;
+  color: #2687f1;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.why-choose .inside a.read-more:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 50%;
+  opacity: 0;
+  margin-left: -7px;
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+  position: absolute;
+  background-color: #2687f1;
+  display: inline-block;
+  transition: 0.2s linear;
+}
+.why-choose .inside a.read-more:hover:before {
+  width: 85%;
+  opacity: 1;
+}
+.why-choose .inside > img {
+  height: 76px;
+  margin-bottom: 35px;
+}
+.why-choose .inside img {
+  vertical-align: middle;
+}
+.why-choose .inside p {
+  color: #7782aa;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 26px;
+}
+/* 05. Hosting Software
+   ==================================== */
+.hosting-software {
+  margin-bottom: 113px;
+}
+.hosting-software ul {
+  text-align: center;
+}
+.hosting-software ul li {
+  color: #2e8ff3;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: 'Microsoft Yahei', serif;
+  border-right: 2px solid #e9f1f7;
+  margin-right: 68px;
+  padding-right: 72px;
+}
+.hosting-software ul li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: 0;
+}
+.hosting-software ul li span {
+  color: #7c8ca4;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Microsoft Yahei', serif;
+  display: block;
+  margin-top: 27px;
+  letter-spacing: 1px;
+}
+.hosting-software .title-head {
+  margin-bottom: 71px;
+}
+.hosting-software.white .title-head {
+  color: #fff;
+}
+.hosting-software.white li {
+  color: #fff;
+  border-color: rgba(233, 241, 247, 0.2);
+}
+.hosting-software.white li span {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* 06. Pricing Table
+   ==================================== */
+.pricing-table {
+  padding: 80px 0 30px 0;
+  background: url(../images/bg-blue.png) no-repeat center;
+  background-size: cover;
+  margin-bottom: 130px;
+}
+.pricing-table .title-head {
+  color: #fff;
+  margin-bottom: 8px;
+}
+.pricing-table p {
+  text-align: center;
+  margin-bottom: 62px;
+  letter-spacing: 1px;
+  color: rgba(205, 220, 236, 0.8);
+}
+.pricing-table .pricing-list .custom-btn {
+  padding: 14px 15px;
+}
+.pricing-list {
+  margin-bottom: 45px;
+  width: 100%;
+  clear: both;
+  display: inline-block;
+}
+.pricing-list li {
+  width: 24.3%;
+  float: left;
+  padding: 33px 29px 33px 35px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 1px 1px 22px rgba(157, 184, 209, 0.19);
+  border-radius: 3px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+.pricing-list li:last-child {
+  margin-right: 0;
+}
+.pricing-list li .images {
+  margin-bottom: 17px;
+}
+.pricing-list li .images img {
+  height: 50px;
+}
+.pricing-list li h5 {
+  color: #39335b;
+  font-size: 18px;
+  margin-bottom: 9px;
+  letter-spacing: 1px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.pricing-list li p {
+  color: #7782aa;
+  line-height: 22px;
+  margin-bottom: 18px;
+}
+.pricing-list li > span {
+  display: block;
+  margin-bottom: 15px;
+  position: relative;
+}
+.pricing-list li > span:before {
+  content: "";
+  top: 8px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #d6dde4;
+  display: inline-block;
+  position: absolute;
+}
+.pricing-list li > span b {
+  background-color: #fff;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #39335b;
+  font-family: 'Microsoft Yahei', serif;
+  position: relative;
+  display: inline-block;
+}
+.pricing-list li span {
+  color: #39335b;
+  font-family: 'Microsoft Yahei', serif;
+}
+.pricing-list li .price {
+  color: #39335b;
+  font-size: 32px;
+  margin-bottom: 23px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.pricing-list li .price span {
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 3px;
+  letter-spacing: 2px;
+}
+.pricing-list li .custom-btn {
+  width: 100%;
+  padding: 10px 15px;
+}
+.pricing-list li .custom-btn:hover {
+  -ms-transform: scale(1.02);
+      transform: scale(1.02);
+  background-color: #238ff9;
+}
+.info-pricing {
+  padding: 50px 52px 20px 52px;
+  box-shadow: 1px 1px 30px rgba(14, 21, 34, 0.07);
+  border-radius: 4px;
+  background-color: #fff;
+  width: 100%;
+  display: inline-block;
+}
+.info-pricing h4 {
+  font-size: 24px;
+  color: #39335b;
+  margin-bottom: 33px;
+  letter-spacing: 2px;
+}
+.info-pricing ul {
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+.info-pricing ul li {
+  width: 100%;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 34px;
+  background: url(../images/check.svg) no-repeat;
+  padding-left: 32px;
+}
+.info-pricing ul li.button {
+  background: none;
+}
+.info-pricing ul li h6 {
+  color: #39335b;
+  font-size: 14px;
+  font-family: 'Microsoft Yahei', serif;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+.info-pricing ul li p {
+  color: #7782aa;
+  text-align: left;
+  margin-bottom: 0;
+}
+.info-pricing ul .custom-btn {
+  box-shadow: 1px 1px 11px rgba(98, 129, 157, 0.4);
+  border-radius: 7px;
+  background-color: #0479ec;
+  display: inline-block;
+  padding: 14px 40px 14px 38px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.info-pricing ul .custom-btn:hover {
+  color: #fff;
+  -ms-transform: scale(1.02);
+      transform: scale(1.02);
+  background-color: #238ff9;
+}
+.info-pricing ul.right {
+  padding-left: 44px;
+}
+.info-pricing ul.right .button {
+  margin-top: 13px;
+}
+.typography {
+  margin-bottom: 60px;
+}
+.typography .title-head {
+  margin-bottom: 30px;
+}
+.typography .custom-btn {
+  margin-bottom: 15px;
+}
+.typography ol,
+.typography ul {
+  margin: 0 20px;
+}
+/* 07. User Slider
+   ==================================== */
+.user-slider {
+  margin-bottom: 95px;
+}
+.user-slider .owl-carousel .owl-item img {
+  width: auto;
+}
+.user-slider .inside {
+  width: 740px;
+  margin: 0 auto;
+  text-align: center;
+}
+.user-slider .inside img {
+  margin: 0 auto 35px;
+}
+.user-slider .inside .icon {
+  width: 33px !important;
+}
+.user-slider .inside p {
+  font-size: 18px;
+  color: #7c8ca4;
+  line-height: 29px;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+.user-slider .user {
+  color: #526785;
+  line-height: 26px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.user-slider .user img {
+  margin-bottom: 15px;
+  border-radius: 100%;
+  width: 58px !important;
+}
+.user-slider .user a {
+  color: #526785;
+}
+.user-slider .user span {
+  color: #7c8ca4;
+  display: block;
+  letter-spacing: 1px;
+  font-family: "HelveticaNeue", serif;
+  font-size: 15px;
+}
+.user-slider .owl-prev,
+.user-slider .owl-next {
+  width: 20px;
+  height: 35px;
+}
+.user-slider .owl-prev img,
+.user-slider .owl-next img {
+  display: none;
+}
+.user-slider .owl-prev {
+  background: url(../images/arrow-left-light.png) no-repeat;
+}
+.user-slider .owl-next {
+  background: url(../images/arrow-right-light.png) no-repeat;
+}
+/* 08. Search Domain
+   ==================================== */
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+.select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  width: 70px;
+  height: 20px;
+}
+.select-styled {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.2s linear;
+}
+.select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  width: 195px;
+  border-radius: 5px;
+  list-style: none;
+  box-shadow: 1px 2px 40px rgba(28, 30, 32, 0.14);
+  background-color: #fff;
+}
+.select-options:before {
+  content: "";
+  top: -7px;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+  display: inline-block;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 7px solid #fff;
+  position: absolute;
+}
+.select-options li {
+  margin: 0;
+  padding: 14px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(35, 120, 236, 0.9);
+}
+.select-options li:first-child {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.select-options li:last-child {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.select-options li:hover {
+  color: #524f6f;
+  background-color: #e2eaf3;
+}
+.select-options li[rel="hide"] {
+  display: none;
+}
+.search-domain {
+  overflow: visible;
+  padding: 61px 0 45px 0;
+  background-color: #298bef;
+}
+.search-domain h3 {
+  font-size: 28px;
+  color: #fff;
+  letter-spacing: 2px;
+  padding-top: 0;
+  margin-top: -5px;
+}
+.search-domain form {
+  margin-left: 13px;
+}
+.search-domain form .form-group {
+  display: inline-block;
+  position: relative;
+}
+.search-domain form .select {
+  top: 17px;
+  right: 10px;
+  border: none;
+  position: absolute;
+  padding-right: 18px;
+  color: #7782aa;
+  font-size: 14px;
+  font-family: 'Microsoft Yahei', serif;
+  text-transform: uppercase;
+  background: transparent url(../images/down.png) no-repeat 86% 33%;
+}
+.search-domain form .select-options {
+  top: 45px;
+  left: -50%;
+}
+.search-domain form input {
+  width: 484px;
+  border: none;
+  height: 45px;
+  padding: 0 90px 0 24px;
+  line-height: 45px;
+  box-shadow: 1px 1px 22px rgba(98, 129, 157, 0.15);
+  border-radius: 7px;
+  background-color: #fff;
+}
+.search-domain form input::-webkit-input-placeholder {
+  color: #7782aa;
+  font-size: 14px;
+}
+.search-domain form input::-moz-placeholder {
+  color: #7782aa;
+  font-size: 14px;
+}
+.search-domain form input:-ms-input-placeholder {
+  color: #7782aa;
+  font-size: 14px;
+}
+.search-domain form input:focus {
+  outline-color: #7782aa;
+}
+.search-domain form .custom-btn {
+  position: relative;
+  top: -1px;
+  margin-left: 16px;
+  border: none;
+}
+/* 09. Social Icon
+   ==================================== */
+.social-icon li {
+  background-color: #fff;
+  box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.03);
+  margin-right: 6px;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  line-height: 46px;
+  text-align: center;
+  transition: 0.2s linear;
+}
+.social-icon li:last-child {
+  margin-right: 0;
+}
+.social-icon li:last-child i {
+  font-size: 20px;
+}
+.social-icon li img {
+  margin-bottom: 0;
+}
+.social-icon li:hover {
+  -ms-transform: scale(1.1);
+      transform: scale(1.1);
+}
+.social-icon li a:hover {
+  color: rgba(31, 127, 226, 0.8);
+}
+.social-icon i {
+  color: rgba(31, 127, 226, 0.8);
+  font-size: 18px;
+}
+/* 10. Breadcrumbs
+   ==================================== */
+.breadcrumbs {
+  background: url(../images/breadcrumbs.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding: 234px 0 195px 0;
+}
+.breadcrumbs h1 {
+  font-size: 46px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.breadcrumbs p {
+  color: #c0dbf4;
+  letter-spacing: 2px;
+  font-family: 'Microsoft Yahei', serif;
+  text-transform: uppercase;
+}
+/*=====  End of 04. Elements Less  ======*/
+/*========================================
+=            05. Slider Style            =
+========================================*/
+/* 01. Base Slider
+   ==================================== */
+.base-slider {
+  padding-bottom: 10px;
+}
+.base-slider h2 {
+  font-size: 50px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 13px;
+  text-transform: capitalize;
+  font-family: 'Microsoft Yahei', serif;
+}
+.base-slider p {
+  color: #c0dbf4;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.base-slider p,
+.base-slider a {
+  font-family: 'Microsoft Yahei', serif;
+}
+.base-slider .custom-btn {
+  font-size: 14px;
+  color: #2378ec;
+  padding: 14px 33px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 11px rgba(98, 129, 157, 0.4);
+  border-radius: 7px;
+  background-color: #fff;
+  display: inline-block;
+}
+.base-slider .custom-btn:hover {
+  -ms-transform: scale(1.1);
+      transform: scale(1.1);
+}
+.base-slider .inside {
+  width: 100%;
+  top: 44%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+}
+.base-slider .owl-prev i,
+.base-slider .owl-next i {
+  color: #fff;
+}
+/*=====  End of 05. Slider Style  ======*/
+/*==================================
+=            06. Footer            =
+==================================*/
+/**
+	Navigation File
+
+	01. Footer
+	02. Widget Footer
+	03. Copyright
+
+ */
+/* 01. Footer
+   ==================================== */
+footer {
+  padding-top: 30px;
+  background-color: #1f7fe2;
+}
+.pre-footer {
+  margin-top: -170px;
+  margin-bottom: -3.3%;
+}
+.pre-footer img {
+  width: 100%;
+}
+/* 02. Widget Footer
+   ==================================== */
+.widget-footer {
+  width: 19%;
+  float: left;
+  display: inline-block;
+  margin-bottom: 115px;
+}
+.widget-footer h4 {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.widget-footer img {
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+.widget-footer ul li {
+  margin-bottom: 14px;
+}
+.widget-footer ul li a {
+  font-size: 14px;
+  color: #c0dbf4;
+  letter-spacing: 1px;
+}
+.widget-footer ul li a:hover {
+  color: #e8f4ff;
+}
+.widget-footer p {
+  color: #c0dbf4;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+.widget-footer.last {
+  width: 24%;
+  padding-left: 67px;
+}
+.widget-footer.last img {
+  max-width: 144px;
+  margin-bottom: 23px;
+}
+/* 03. Copyright
+   ==================================== */
+.copyright {
+  width: 100%;
+  display: inline-block;
+  padding: 31px 0 35px;
+}
+.copyright p {
+  font-size: 14px;
+  color: rgba(185, 203, 239, 0.6);
+  letter-spacing: 1px;
+}
+/*=====  End of 06. Footer  ======*/
+/*=======================================
+=            07. About Style            =
+=======================================*/
+/**
+	Navigation File
+
+	01. Info Block
+	02. Team Block
+	03. About Block
+	04. Our Team
+
+ */
+/* 01. Info Block
+   ==================================== */
+.info-block {
+  padding: 80px 0;
+  margin-bottom: 80px;
+  background-color: #f6fafd;
+}
+.info-block p {
+  color: #39335b;
+  font-size: 26px;
+  text-align: center;
+  line-height: 38px;
+  max-width: 970px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+/* 02. Team Block
+   ==================================== */
+.team-block {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 140px;
+}
+.team-block h3 {
+  color: #39335b;
+  font-size: 32px;
+  letter-spacing: 3px;
+  margin-bottom: 18px;
+  margin-top: 23px;
+}
+.team-block ul {
+  margin-top: 42px;
+  margin-bottom: 33px;
+}
+.team-block ul li {
+  margin-bottom: 23px;
+}
+.team-block ul li h5 {
+  color: #39335b;
+  font-size: 18px;
+  font-family: 'Microsoft Yahei', serif;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+.team-block p {
+  color: #7782aa;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.team-block span img {
+  margin-right: 45px;
+}
+.team-block .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+.team-block .col-6 {
+  width: 460px;
+  margin-right: 23px;
+}
+.team-block .images {
+  text-align: right;
+  padding-right: 0;
+}
+.team-block .images img {
+  width: 630px;
+}
+.team-block.reverse .row {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+}
+.team-block.reverse h3 {
+  font-size: 31px;
+  line-height: 45px;
+  margin-top: 28px;
+}
+.team-block.reverse .images {
+  text-align: left;
+  padding-right: 15px;
+  padding-left: 0;
+}
+.team-block.reverse .col-6 {
+  width: 490px;
+  margin-right: 0;
+  margin-left: 20px;
+}
+.team-block.reverse p {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.images-bg img {
+  width: 100%;
+}
+/* 03. About Block
+   ==================================== */
+.about-block {
+  margin-top: -3px;
+  padding-top: 65px;
+  background-size: cover;
+  background: url(../images/bg-team.png) no-repeat;
+}
+.about-block .hosting-software {
+  margin-bottom: 90px;
+}
+.about-block .hosting-software .title-head {
+  margin-bottom: 43px;
+}
+.about-block .hosting-software ul {
+  width: 100%;
+  display: inline-block;
+}
+.about-block .hosting-software ul li {
+  width: 28.5%;
+  margin-right: 0;
+  padding-right: 0;
+}
+.about-block .hosting-software ul li:first-child {
+  text-align: left;
+  width: 22%;
+  padding-left: 25px;
+}
+.about-block .hosting-software ul li:last-child {
+  text-align: right;
+  width: 19%;
+}
+.about-block .hosting-software ul li:last-child b:after {
+  content: "x";
+  font-size: 50px;
+}
+/* 04. Our Team
+   ==================================== */
+.our-team {
+  margin-bottom: 88px;
+}
+.our-team .title-head {
+  color: #fff;
+  margin-bottom: 44px;
+}
+.our-team ul {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 54px;
+}
+.our-team ul li {
+  width: 234px;
+  float: left;
+  overflow: hidden;
+  margin-right: 16px;
+  display: inline-block;
+}
+.our-team ul li img {
+  width: 100%;
+  border-radius: 6px;
+  transition: 0.3s linear;
+}
+.our-team ul li:last-child {
+  margin-right: 0;
+}
+.our-team ul li .name {
+  color: #39335b;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 7px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.our-team ul li span {
+  color: #7782aa;
+  font-size: 14px;
+}
+.our-team ul li .inside {
+  padding: 24px 26px;
+  box-shadow: 1px 1px 44px rgba(38, 63, 90, 0.09);
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+}
+.our-team ul li:hover img {
+  cursor: pointer;
+  -ms-transform: scale(1.08);
+      transform: scale(1.08);
+}
+/*=====  End of 07. About Style  ======*/
+/*======================================
+=            08. Blog Style            =
+======================================*/
+/**
+	Navigation File
+
+	01. Blog
+	02. Post
+	03. Order
+
+ */
+/* 01. Blog
+   ==================================== */
+.blog .container {
+  width: 1015px;
+}
+.blog header .container {
+  width: 1300px;
+}
+.blog aside {
+  margin-left: 40px;
+  margin-top: 14px;
+}
+.blog .search-domain .container,
+.blog footer .container {
+  width: 1139px;
+}
+/* 02. Post
+   ==================================== */
+.post {
+  margin-bottom: 70px;
+}
+.post .top-post {
+  margin-bottom: 17px;
+}
+.post .top-post h3 {
+  margin-bottom: 15px;
+}
+.post .top-post h3 a:hover {
+  color: #186ae1;
+}
+.post .top-post a {
+  color: #39335b;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.post .top-post .date {
+  font-size: 20px;
+  color: #8289a2;
+  letter-spacing: 1px;
+  font-family: "AthelasItalic", serif;
+}
+.post .post-images {
+  margin-bottom: 20px;
+}
+.post .post-images img {
+  height: 220px;
+  border-radius: 6px;
+}
+.post .bottom-post p {
+  font-size: 16px;
+  color: #39335b;
+  line-height: 26px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+/* 03. Order
+   ==================================== */
+.order {
+  width: 100%;
+  display: block;
+  color: #0479ec;
+  padding: 16px 0;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 7px;
+  margin-top: -14px;
+  box-shadow: none;
+  background-color: rgba(212, 232, 252, 0.5);
+}
+/*=====  End of 08. Blog Style  ======*/
+/*=============================================
+=            10. Single Blog Style            =
+=============================================*/
+/* 01. Single Blog
+   ==================================== */
+.single-blog {
+  margin-top: -7px;
+}
+.single-blog.container {
+  width: 760px;
+}
+.single-blog .post .top-post {
+  margin-bottom: 22px;
+  text-align: center;
+}
+.single-blog p {
+  color: #39335b;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 27px;
+  letter-spacing: 1px;
+}
+.single-blog .content-post {
+  margin-top: 56px;
+}
+.single-blog .content-post h4 {
+  color: #39335b;
+  font-size: 26px;
+  margin-bottom: 22px;
+  letter-spacing: 1px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.single-blog .content-post p a {
+  display: inline-block;
+}
+.single-blog .content-post .quote {
+  font-size: 16px;
+  padding-left: 70px;
+  color: #39335b;
+  margin-bottom: 38px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  font-family: "AthelasItalic", serif;
+}
+.single-blog .content-post .video {
+  position: relative;
+  margin-bottom: 31px;
+}
+.single-blog .content-post .video button {
+  border: none;
+  top: 50%;
+  left: 50%;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  padding: 0;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 1px 2px 65px rgba(0, 0, 0, 0.76);
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  transition: 0.2s linear;
+}
+.single-blog .content-post .video button:hover {
+  box-shadow: none;
+}
+.single-blog .content-post .video button img {
+  width: 22px;
+  margin-left: 5px;
+}
+.single-blog .content-post .video iframe {
+  margin-bottom: -2px;
+}
+.single-blog .content-post .video img {
+  border-radius: 6px;
+}
+.single-blog .content-post .video .modal .modal-dialog {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+  margin-top: -10px;
+}
+.single-blog .content-post ul {
+  display: inline-block;
+  margin-bottom: 18px;
+  margin-top: 20px;
+}
+.single-blog .content-post ul li {
+  display: inline-block;
+  float: left;
+}
+.single-blog .content-post ul li:first-child {
+  margin-right: 17px;
+}
+.single-blog .content-post ul li:last-child {
+  margin-top: 27px;
+}
+.single-blog .content-post ul li img {
+  border-radius: 6px;
+}
+.single-blog .content-post .last {
+  margin-bottom: 60px;
+}
+.single-blog .content-post .share {
+  padding-bottom: 56px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  border-bottom: 4px solid #e8eef5;
+}
+.single-blog .content-post .share h5 {
+  color: #39335b;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'Microsoft Yahei', serif;
+  margin-bottom: 20px;
+}
+.single-blog .content-post .share a {
+  width: 46px;
+  height: 46px;
+  line-height: 53px;
+  text-align: center;
+  border-radius: 100%;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #0479ec;
+  box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.03);
+}
+.single-blog .related-post {
+  z-index: 9;
+  position: relative;
+}
+.single-blog .related-post h5 {
+  color: #39335b;
+  font-size: 18px;
+  font-family: 'Microsoft Yahei', serif;
+  margin-bottom: 26px;
+  letter-spacing: 2px;
+}
+.single-blog .related-post ul {
+  width: 100%;
+  display: inline-block;
+}
+.single-blog .related-post ul li {
+  width: 50%;
+  float: left;
+}
+.single-blog .related-post ul li img {
+  margin-right: 12px;
+  border-radius: 6px;
+}
+.single-blog .related-post ul li a {
+  color: #0479ec;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+.single-blog .related-post ul li a:first-child {
+  float: left;
+  display: inline-block;
+}
+.single-blog .related-post ul li:last-child {
+  padding-left: 21px;
+}
+/*=====  End of 10. Single Blog Style  ======*/
+/*============================================
+=            11. My Account Style            =
+============================================*/
+/**
+	Navigation File
+
+	01. My Account
+	02. Information
+	03. Tab Content
+	04. Payment History
+	05. Password
+
+ */
+/* 01. My Account
+   ==================================== */
+.my-account {
+  background-color: #f5fafd;
+}
+.my-account header {
+  margin-bottom: 0;
+}
+.top-panel {
+  padding: 26px 0 19px 0;
+  margin-bottom: 65px;
+  box-shadow: 1px 1px 19px rgba(28, 61, 94, 0.17);
+  background-color: #fff;
+}
+.top-panel .nav {
+  text-align: center;
+  border: none;
+}
+.top-panel .nav li {
+  float: none;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 60px;
+}
+.top-panel .nav li:last-child {
+  margin-right: 0;
+}
+.top-panel .nav li:nth-child(2) svg {
+  margin-top: -5px;
+}
+.top-panel .nav li svg {
+  height: 26px;
+}
+.top-panel .nav li.active a,
+.top-panel .nav li.active a:focus {
+  border: none;
+}
+.top-panel .nav li.active a {
+  color: #0479ec;
+}
+.top-panel .nav li.active a svg {
+  fill: #0479ec;
+}
+.top-panel .nav li a {
+  color: rgba(57, 51, 91, 0.9);
+  padding: 0;
+  border: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-family: 'Microsoft Yahei', serif;
+  text-transform: uppercase;
+}
+.top-panel .nav li a:hover {
+  background-color: transparent;
+}
+.top-panel .nav li a:focus {
+  background-color: transparent;
+}
+.top-panel .nav li a svg {
+  width: 21px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.top-panel .nav li a img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+/* 02. Information
+   ==================================== */
+#information .content {
+  padding: 28px 30px 6px 30px;
+}
+#information .content .last a {
+  text-decoration: underline;
+  border: none;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+#information .content .last li {
+  letter-spacing: 1px;
+}
+#information .password {
+  padding: 29px 30px 30px 30px;
+}
+/* 03. Tab Content
+   ==================================== */
+.tab-content {
+  padding-bottom: 250px;
+}
+.tab-content .content {
+  width: 600px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 28px 30px 37px 30px;
+  margin: 0 auto 30px;
+  box-shadow: 1px 1px 22px rgba(157, 184, 209, 0.19);
+  border-radius: 3px;
+  background-color: #fff;
+}
+.tab-content .content a {
+  display: inline-block;
+}
+.tab-content .center {
+  padding: 0 120px 0 12px;
+}
+.tab-content .last {
+  text-align: right;
+}
+.tab-content .last span {
+  margin-top: 22px;
+}
+.tab-content h5 {
+  color: #39335b;
+  font-size: 32px;
+  margin-bottom: 31px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.tab-content h6 {
+  color: #39335b;
+  font-size: 18px;
+  margin-bottom: 17px;
+  letter-spacing: 1px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.tab-content a {
+  color: #0479ec;
+  font-size: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #0479ec;
+  padding-bottom: 3px;
+}
+.tab-content ul {
+  margin-bottom: 34px;
+}
+.tab-content ul li {
+  color: #7782aa;
+  font-size: 15px;
+  margin-bottom: 9px;
+  letter-spacing: 1px;
+}
+.tab-content span {
+  color: #7782aa;
+  display: inline-block;
+}
+.tab-content span b {
+  font-family: 'Microsoft Yahei', serif;
+  display: block;
+  color: #39335b;
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+#payments .content {
+  margin: 0 auto 25px;
+  padding: 30px 30px 18px 30px;
+}
+#payments .last span {
+  margin-top: 0;
+}
+/* 04. Payment History
+   ==================================== */
+.payment-history {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 30px 14px 30px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.payment-history,
+.password {
+  width: 600px;
+  margin: 0 auto;
+  padding: 27px 30px 14px 30px;
+  box-shadow: 1px 1px 22px rgba(157, 184, 209, 0.19);
+  border-radius: 3px;
+  background-color: #fff;
+}
+/* 05. Password
+   ==================================== */
+.password {
+  text-align: right;
+}
+.password span {
+  float: left;
+  color: #39335b;
+  font-size: 18px;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-family: 'Microsoft Yahei', serif;
+}
+.password a {
+  color: #0479ec;
+  font-size: 15px;
+  margin-bottom: 0;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+/*=====  End of 11. My Account Style  ======*/
+/*=========================================
+=            12. Contact Style            =
+=========================================*/
+/**
+	Navigation File
+
+	01. Contact
+	02. Info Block Contact
+	03. Form Contact
+
+ */
+/* 01. Contact
+   ==================================== */
+.contact {
+  background-color: #fff;
+}
+.contact .bg-form {
+  background: url(../images/bg-form.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 171px;
+  padding-bottom: 255px;
+}
+.contact .bg-form .container {
+  width: 950px;
+}
+.contact h2 {
+  color: #fff;
+  font-size: 46px;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.contact p {
+  color: #c0dbf4;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+.contact .inside {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 56px;
+}
+.contact .inside .images {
+  width: 86px;
+  height: 86px;
+  margin: 0 auto 25px;
+  text-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  border-radius: 100%;
+  background-color: #307ce4;
+  box-shadow: 1px 1px 44px rgba(0, 0, 0, 0.1);
+}
+.contact .inside .images img {
+  width: 45px;
+}
+.contact .inside.left {
+  padding-right: 118px;
+}
+.contact .inside.right {
+  padding-left: 65px;
+}
+.contact .inside h4 {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Microsoft Yahei', serif;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+.contact .inside a,
+.contact .inside span {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.contact .inside span {
+  line-height: 24px;
+}
+.contact .widget-footer p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: none;
+}
+/* 02. Info Block Contact
+   ==================================== */
+.info-block-contact {
+  position: relative;
+}
+.info-block-contact:before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  top: 47%;
+  left: 0;
+  background-color: rgba(222, 230, 235, 0.2);
+  position: absolute;
+  display: block;
+  -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+}
+.info-block-contact:after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  top: 16px;
+  left: 50%;
+  background-color: rgba(222, 230, 235, 0.2);
+  position: absolute;
+  display: block;
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+}
+/* 03. Form Contact
+   ==================================== */
+.form-contact {
+  position: relative;
+  z-index: 9999;
+  width: 541px;
+  margin: -200px auto 60px;
+}
+.form-contact h3 {
+  font-size: 38px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Microsoft Yahei', serif;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+.form-contact label {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #8198a6;
+}
+.form-contact form,
+.login-bg form,
+.sign-up form {
+  padding: 45px 65px 30px 63px;
+  box-shadow: 1px 1px 44px rgba(38, 63, 90, 0.09);
+  border-radius: 5px;
+  background-color: #fff;
+}
+.form-contact form .form-group,
+.login-bg form .form-group,
+.sign-up form .form-group {
+  margin-bottom: 35px;
+}
+.form-contact form .form-group:last-child,
+.login-bg form .form-group:last-child,
+.sign-up form .form-group:last-child {
+  margin-top: -13px;
+  margin-bottom: 0;
+}
+.form-contact form input,
+.login-bg form input,
+.sign-up form input {
+  width: 100%;
+  font-size: 15px;
+  color: #8198a6;
+  padding-bottom: 18px;
+  border: none;
+  border-bottom: 2px solid #dee6eb;
+}
+.form-contact form input::-webkit-input-placeholder,
+.login-bg form input::-webkit-input-placeholder,
+.sign-up form input::-webkit-input-placeholder {
+  font-size: 15px;
+  color: #8198a6;
+  letter-spacing: 1px;
+}
+.form-contact form input::-moz-placeholder,
+.login-bg form input::-moz-placeholder,
+.sign-up form input::-moz-placeholder {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #8198a6;
+}
+.form-contact form input:-ms-input-placeholder,
+.login-bg form input:-ms-input-placeholder,
+.sign-up form input:-ms-input-placeholder {
+  font-size: 15px;
+  color: #8198a6;
+  letter-spacing: 1px;
+}
+.form-contact form input:-moz-placeholder,
+.login-bg form input:-moz-placeholder,
+.sign-up form input:-moz-placeholder {
+  font-size: 15px;
+  color: #8198a6;
+  letter-spacing: 1px;
+}
+.form-contact form input:focus,
+.login-bg form input:focus,
+.sign-up form input:focus {
+  outline: none;
+  border-color: rgba(119, 130, 170, 0.6);
+}
+.form-contact form label,
+.login-bg form label,
+.sign-up form label {
+  font-size: 15px;
+  color: #8198a6;
+  display: block;
+  margin-bottom: 22px;
+}
+.form-contact form textarea,
+.login-bg form textarea,
+.sign-up form textarea {
+  width: 100%;
+  color: #8198a6;
+  height: 183px;
+  border: 2px solid #dee6eb;
+}
+.form-contact form textarea:focus,
+.login-bg form textarea:focus,
+.sign-up form textarea:focus {
+  outline: none;
+  border-color: rgba(119, 130, 170, 0.6);
+}
+.form-contact form button,
+.login-bg form button,
+.sign-up form button {
+  font-size: 15px;
+  color: #fff;
+  padding: 15px 48px;
+  border-radius: 7px;
+  text-transform: uppercase;
+  border: none;
+  transition: 0.2s linear;
+  background-color: #0479ec;
+  font-family: 'Microsoft Yahei', serif;
+}
+.form-contact form button:hover,
+.login-bg form button:hover,
+.sign-up form button:hover {
+  background-color: #238ff9;
+}
+/*=====  End of 12. Contact Style  ======*/
+/*=============================================
+=            09. Widget Blog Style            =
+=============================================*/
+/**
+	Navigation File
+
+	01. Widget
+	02. Widget Categories
+	03. Widget Popular
+
+ */
+/* 01. Widget
+   ==================================== */
+.widget {
+  margin-bottom: 56px;
+}
+.widget-title {
+  color: #39335b;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'Microsoft Yahei', serif;
+  margin-bottom: 25px;
+}
+/* 02. Widget Categories
+   ==================================== */
+.widget-categories li {
+  margin-bottom: 18px;
+}
+.widget-categories li a {
+  color: #39335b;
+  font-size: 18px;
+}
+.widget-categories li a:hover {
+  color: #186ae1;
+}
+.widget-categories li span {
+  color: #0479ec;
+  margin-right: 5px;
+}
+/* 03. Widget Popular
+   ==================================== */
+.widget-popular li {
+  margin-bottom: 33px;
+}
+.widget-popular a {
+  color: #0479ec;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+.widget-categories ul {
+  border-radius: 5px;
+  padding: 10px;
+  background: #f5f8fb;
+}
+/*=====  End of 09. Widget Blog Style  ======*/
+/*==========================================
+=            13. 404 Page Style            =
+==========================================*/
+/* 01. Error Page
+   ==================================== */
+.error-page {
+  background-color: #0479ec;
+}
+.error-page .inside {
+  padding-top: 264px;
+  padding-bottom: 264px;
+}
+.error-page .inside h2 {
+  font-size: 156px;
+  margin-bottom: 30px;
+}
+.error-page .inside h4 {
+  font-size: 44px;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.error-page .inside p {
+  font-size: 16px;
+  font-family: 'Microsoft Yahei', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.error-page .inside h2,
+.error-page .inside h4,
+.error-page .inside p {
+  color: #fff;
+  line-height: normal;
+}
+/*=====  End of 13. 404 Page Style  ======*/
+/*=======================================
+=            14. Order Style            =
+=======================================*/
+/**
+	Navigation File
+
+	01. Order Page
+	02. Content Order
+	03. Total Order
+	04. Account Details
+
+ */
+/* 01. Order Page
+   ==================================== */
+.order-page .breadcrumbs {
+  margin-bottom: 85px;
+  padding: 170px 0 83px;
+  background: #0479ec;
+}
+.order-page .tab-content .content {
+  padding: 28px 34px 27px 30px;
+}
+.order-page .tab-content .center {
+  padding: 0 115px 0 17px;
+}
+.order-page .tab-content .center span {
+  display: block;
+}
+.order-page .tab-content .center span > span {
+  margin-top: 10px;
+}
+.order-page .tab-content .last span {
+  display: block;
+  margin-top: 57px;
+}
+.order-page .tab-content .last span > span {
+  margin-top: 8px;
+}
+.order-page .tab-content div > img {
+  margin-top: 10px;
+  margin-left: 14px;
+}
+/* 02. Content Order
+   ==================================== */
+.content-order h2 {
+  color: #39335b;
+  font-size: 32px;
+}
+.content-order .first {
+  padding-left: 95px;
+  letter-spacing: 3px;
+  margin-bottom: 27px;
+}
+.content-order .tab-content {
+  width: 635px;
+  float: right;
+  padding-bottom: 0;
+}
+.content-order .tab-content .content {
+  width: auto;
+  border-radius: 3px;
+  box-shadow: none;
+  margin-bottom: 64px;
+  background-color: #f5f8fb;
+}
+.content-order input[type="radio"] {
+  display: none;
+}
+.content-order input[type="radio"] + label span {
+  width: 16px;
+  height: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  background-color: rgba(119, 130, 170, 0.2);
+}
+.content-order input[type="radio"]:checked + label span {
+  background: url(../images/radio-check.png) no-repeat;
+}
+/* 03. Total Order
+   ==================================== */
+.total-order {
+  width: 285px;
+  padding: 17px 28px 26px 34px;
+  border-radius: 3px;
+  background-color: #f5f8fb;
+}
+.total-order h4 {
+  color: #39335b;
+  font-size: 18px;
+  font-family: 'Microsoft Yahei', serif;
+  letter-spacing: 2px;
+  margin-bottom: 19px;
+}
+.total-order ul {
+  margin-bottom: 22px;
+}
+.total-order ul li {
+  color: #7782aa;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+.total-order ul li span {
+  float: right;
+  font-family: 'Microsoft Yahei', serif;
+}
+.total-order b {
+  font-weight: normal;
+}
+.total-order form {
+  padding: 18px 0 2px 0;
+  border-width: 3px 0;
+  border-color: #dee6eb;
+  border-style: solid;
+  text-align: left;
+  margin-bottom: 22px;
+}
+.total-order form label {
+  color: #7782aa;
+  font-size: 15px;
+  margin-left: 20px;
+  display: block;
+  font-family: "HelveticaNeue", serif;
+}
+.total-order form input {
+  float: left;
+  margin-top: 3px;
+}
+.total-order form span {
+  float: right;
+}
+.total-order input[type="radio"] + label {
+  cursor: pointer;
+  margin-left: 0;
+  text-align: left;
+}
+.total-order input[type="radio"] + label span {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.total-order input[type="radio"] + label .first {
+  float: left;
+}
+.total-order input[type="radio"] + label b {
+  float: right;
+}
+.total-order .total {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  color: #39335b;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Microsoft Yahei', serif;
+}
+.total-order .total b {
+  float: right;
+}
+/* 04. Account Details
+   ==================================== */
+.account-details {
+  width: 635px;
+  float: right;
+}
+.account-details h2 {
+  color: #39335b;
+  font-size: 32px;
+  letter-spacing: 3px;
+  margin-bottom: 31px;
+}
+.account-details form .form-group {
+  clear: both;
+  margin-bottom: 27px;
+}
+.account-details form .form-group.col-2 {
+  width: 50%;
+  clear: none;
+  float: left;
+  display: inline-block;
+}
+.account-details form .form-group.col-2 input {
+  width: 300px;
+}
+.account-details form .form-group.col-2:nth-child(2),
+.account-details form .form-group.col-2:nth-child(5) {
+  padding-left: 16px;
+}
+.account-details form .form-group .select-styled {
+  padding: 0 15px;
+}
+.account-details form .form-group .select-options {
+  width: 100%;
+  margin-top: 15px;
+}
+.account-details form .form-group .select-options li {
+  padding: 14px 20px;
+  line-height: normal;
+}
+.account-details form .form-group input {
+  color: #524f6f;
+}
+.account-details form .form-group input:focus {
+  border-color: rgba(119, 130, 170, 0.6);
+}
+.account-details form .form-group.last {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  margin-top: 34px;
+  border-bottom: 2px solid #dee6eb;
+}
+.account-details form .form-group.last input {
+  width: auto;
+  height: auto;
+}
+.account-details form .form-group.last label {
+  width: 100%;
+  color: #7782aa;
+  cursor: pointer;
+  font-size: 15px;
+  display: inline-block;
+}
+.account-details form .form-group.checkbox {
+  margin-bottom: 50px;
+}
+.account-details form .form-group.checkbox span {
+  color: #7782aa;
+  font-size: 15px;
+  vertical-align: top;
+  font-family: "HelveticaNeue", serif;
+}
+.account-details form .form-group.checkbox input {
+  width: auto;
+  height: auto;
+  margin-left: 0;
+  display: none;
+}
+.account-details form .form-group.checkbox input + label {
+  padding-left: 0;
+}
+.account-details form .form-group.checkbox input + label .first {
+  width: 17px;
+  height: 16px;
+  padding-left: 0;
+  margin-right: 10px;
+  display: inline-block;
+  border: 2px solid #dee6eb;
+}
+.account-details form .form-group.checkbox input:checked + label .first {
+  border-color: #1f7fe2;
+}
+.account-details form .form-group.checkbox input:checked + label .first:before {
+  content: "\f00c";
+  font-family: 'FontAwesome', serif;
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+  color: #1f7fe2;
+}
+.account-details form input,
+.account-details form .select {
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  color: #7782aa;
+  border: 2px solid #dee6eb;
+}
+.account-details form input:focus,
+.account-details form .select:focus {
+  outline: none;
+}
+.account-details form .select {
+  line-height: 42px;
+  background: url(../images/down-select.png) no-repeat 97% 50%;
+}
+.account-details form select {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+.account-details form select:focus {
+  outline: none;
+}
+.account-details form label {
+  color: #7782aa;
+  font-size: 15px;
+  display: block;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.account-details form label span {
+  color: #dd4e69;
+}
+.account-details .bottom {
+  margin-bottom: 195px;
+}
+.account-details .bottom h3 {
+  color: #39335b;
+  font-size: 32px;
+  margin-bottom: 16px;
+  letter-spacing: 3px;
+}
+.account-details .bottom p {
+  color: #7782aa;
+  font-size: 15px;
+  padding-bottom: 21px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #dee6eb;
+}
+.account-details .bottom button {
+  color: #fff;
+  width: 100%;
+  padding: 18px 0;
+  font-size: 15px;
+  border: none;
+  border-radius: 7px;
+  transition: 0.2s linear;
+  background-color: #0479ec;
+  text-transform: uppercase;
+}
+.account-details .bottom button:hover {
+  background-color: #238ff9;
+}
+/*=====  End of 14. Order Style  ======*/
+/*==============================================
+=            16. Service Page Style            =
+==============================================*/
+/**
+	Navigation File
+
+	01. Service Page
+	02. Choice Plan
+	03. Info Plan
+	04. Block Features
+	05. Info Plans
+	06. Order Page
+	07. Service Page Dark Color
+	08. Service Page Images Color
+
+ */
+/* 01. Service Page
+   ==================================== */
+.service-page .container {
+  width: 1010px;
+}
+.service-page .search-domain .container,
+.service-page footer .container {
+  width: 1139px;
+}
+/* 02. Choice Plan
+   ==================================== */
+.choice-plan {
+  margin-bottom: 112px;
+  padding: 80px 0 0;
+  background-size: cover;
+  background: #f6fafd url(../images/choice-plan.png) no-repeat top;
+}
+.choice-plan h2 {
+  font-size: 46px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.choice-plan .nav-tabs {
+  margin-bottom: 56px;
+  border: none;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.choice-plan .nav-tabs li {
+  float: none;
+  display: inline-block;
+  border: 2px solid #74a0fb;
+  margin-right: -4px;
+}
+.choice-plan .nav-tabs li:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.choice-plan .nav-tabs li:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.choice-plan .nav-tabs li a {
+  border-radius: 0;
+  color: #c0dbf4;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-right: 0;
+  border: none;
+  padding: 8px 37px;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: 'Microsoft Yahei', serif;
+}
+.choice-plan .nav-tabs li.active {
+  background-color: #fff;
+  border-color: #fff;
+}
+.choice-plan .nav-tabs li.active a {
+  color: #3f75ff;
+}
+.choice-plan .nav-tabs li.active a:hover,
+.choice-plan .nav-tabs li.active a:focus {
+  color: #3f75ff;
+  border: none;
+  background-color: transparent;
+}
+.choice-plan .pricing-list {
+  text-align: center;
+}
+.choice-plan .pricing-list li {
+  width: 30.7%;
+  float: none;
+  padding: 43px 35px 12px 35px;
+  margin-right: 33px;
+}
+.choice-plan .pricing-list li .custom-btn {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 14px 0;
+}
+.choice-plan .pricing-list li:last-child {
+  margin-right: 0;
+}
+.choice-plan .pricing-list li .images {
+  margin-bottom: 13px;
+}
+.choice-plan .pricing-list li h5 {
+  margin-bottom: 26px;
+}
+.choice-plan .pricing-list li .custom-btn {
+  text-transform: uppercase;
+}
+.choice-plan .pricing-list ul {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.choice-plan .pricing-list ul li {
+  width: auto;
+  float: none;
+  margin-right: 0;
+  box-shadow: none;
+  margin-bottom: 17px;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+  display: block;
+  letter-spacing: 0;
+}
+.choice-plan .tab-content {
+  padding-bottom: 18px;
+}
+/* 03. Info Plan
+   ==================================== */
+.info-plan {
+  padding-bottom: 83px;
+}
+.info-plan img {
+  margin-bottom: 28px;
+}
+.info-plan h5 {
+  color: #39335b;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.info-plan p {
+  color: #7782aa;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 23px;
+}
+/* 04. Block Features
+   ==================================== */
+.block-features {
+  margin-bottom: -120px;
+}
+.block-features .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+.block-features .col-5 {
+  padding-top: 23px;
+  padding-left: 100px;
+}
+.block-features img {
+  margin-left: 60px;
+  max-width: 516px;
+}
+.block-features h3 {
+  color: #39335b;
+  font-size: 32px;
+  margin-top: 5px;
+  margin-bottom: 19px;
+  letter-spacing: 3px;
+}
+.block-features p {
+  color: #7782aa;
+  margin-bottom: 65px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+/* 05. Info Plans
+   ==================================== */
+.info-plans {
+  background: #f6fafd url(../images/bg-servise-2.png) no-repeat top;
+  padding-top: 268px;
+}
+.info-plans .title-head {
+  margin-bottom: 10px;
+}
+.info-plans p {
+  color: #7782aa;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+}
+.info-plans table {
+  width: 100%;
+  box-shadow: 1px 1px 22px rgba(157, 184, 209, 0.19);
+  border-radius: 3px;
+  z-index: 999;
+  position: relative;
+  background-color: #fff;
+}
+.info-plans table thead tr td {
+  padding-top: 35px;
+  color: #39335b;
+  font-size: 18px;
+  font-family: 'Microsoft Yahei', serif;
+}
+.info-plans table thead tr td:first-child {
+  padding-bottom: 18px;
+}
+.info-plans table tbody tr:last-child td {
+  padding-bottom: 43px;
+}
+.info-plans table tbody td.background {
+  background-color: rgba(230, 237, 246, 0.4);
+}
+.info-plans table tr {
+  padding: 0 40px;
+}
+.info-plans table tr.offset-inside td {
+  padding-top: 43px;
+}
+.info-plans table tr td {
+  color: #7782aa;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px 0;
+}
+.info-plans table tr td.text-left {
+  width: 27%;
+  text-align: left;
+  padding-left: 40px;
+}
+.info-plans table tr td b {
+  color: #39335b;
+  font-family: 'Microsoft Yahei', serif;
+}
+.info-plans table tr.border-line {
+  border: 2px solid rgba(230, 237, 246, 0.4);
+}
+/* 06. Order Page
+   ==================================== */
+.bottom-info-plans {
+  margin-top: -240px;
+  padding: 260px 0 175px 0;
+  margin-bottom: 80px;
+  background-size: contain;
+  background: url(../images/bottom-info-plans.png) no-repeat center;
+}
+.bottom-info-plans .title-head {
+  color: #fff;
+  margin-top: 100px;
+  margin-bottom: 7px;
+}
+.bottom-info-plans p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 25px;
+  color: rgba(205, 220, 236, 0.8);
+}
+.bottom-info-plans .custom-btn {
+  padding: 16px 29px;
+  font-size: 15px;
+}
+.bottom-info-plans .partner-slider {
+  margin-top: 85px;
+  text-align: center;
+}
+.bottom-info-plans .partner-slider img {
+  width: 125px;
+}
+.bottom-info-plans .partner-slider .owl-stage {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.bottom-info-plans .partner-slider .owl-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+/* 07. Service Page Dark Color
+   ==================================== */
+.dark-color .choice-plan {
+  background: #f5fafd url(../images/choice-plan2.png) no-repeat top;
+}
+.dark-color .choice-plan .nav-tabs li {
+  border-color: #5c41c4;
+}
+.dark-color .choice-plan .nav-tabs li.active {
+  border-color: #fff;
+}
+.dark-color .choice-plan .nav-tabs li.active a {
+  color: #482cac;
+}
+.dark-color .choice-plan .nav-tabs li a {
+  color: #c3b5f7;
+}
+.dark-color .bottom-info-plans {
+  background: url(../images/bottom-info-plans2.png) no-repeat center;
+}
+.dark-color header .button-header .custom-btn.login {
+  background-color: #675abf;
+}
+/* 08. Service Page Images Color
+   ==================================== */
+.images-color .choice-plan {
+  background: url(../images/choice-plan3.png) no-repeat top;
+}
+.images-color .choice-plan .nav-tabs li {
+  border-color: #7e94bb;
+}
+.images-color .choice-plan .nav-tabs li.active {
+  border-color: #fff;
+}
+.images-color .choice-plan .nav-tabs li.active a {
+  color: #063a6d;
+}
+.images-color header .button-header .custom-btn.login {
+  background: rgba(255, 255, 255, 0.2) none;
+}
+.images-color .bottom-info-plans {
+  background: url(../images/bottom-info-plans3.png) no-repeat center;
+}
+/*=====  End of 16. Service Page Style  ======*/
+/*=============================================
+=            17. Mobile Menu Style            =
+=============================================*/
+/**
+	Navigation File
+
+	01. Mobile Menu
+	02. Mobile Menu Btn
+
+ */
+/* 01. Mobile Menu
+   ==================================== */
+.mobile-menu {
+  display: none;
+  width: 100%;
+  height: 100vh;
+}
+.mobile-menu .inside {
+  width: 100%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.mobile-menu .menu {
+  padding: 15px 0;
+}
+.mobile-menu .button-header {
+  padding-bottom: 30px;
+}
+.mobile-menu .logo {
+  padding: 30px 0 0;
+}
+.mobile-menu .menu li {
+  width: 100%;
+  padding: 10px 0 30px 0;
+  margin-right: 0;
+}
+.mobile-menu .menu li:before {
+  bottom: 15px;
+}
+.mobile-menu .menu .sub-menu {
+  margin: 20px auto 0;
+  position: static;
+  left: auto;
+  -ms-transform: translateX(0) scale(1);
+      transform: translateX(0) scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+.mobile-menu .menu .children {
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+.mobile-menu .menu .children > a:after {
+  content: "\f107";
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  left: 6px;
+  top: 2px;
+  font-family: FontAwesome, serif;
+  display: inline-block;
+  -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+}
+.mobile-menu .menu .children .collapsed:after {
+  -ms-transform: rotate(0);
+      transform: rotate(0);
+}
+.mobile-menu .menu .children:hover .sub-menu {
+  -ms-transform: translateX(0) scale(1);
+      transform: translateX(0) scale(1);
+}
+.mobile-menu .logo,
+.mobile-menu .menu,
+.mobile-menu .button-header {
+  width: 100%;
+  text-align: center;
+}
+.mobile-menu-open {
+  overflow-y: hidden;
+}
+.mobile-menu-open .mobile-block {
+  overflow-y: scroll;
+}
+/* 02. Mobile Menu Btn
+   ==================================== */
+.mobile-menu-btn {
+  position: absolute;
+  display: inline-block;
+  top: 17px;
+  right: 30px;
+  height: 30px;
+}
+.mobile-menu-btn.active span {
+  background-color: rgba(0, 0, 0, 0);
+  transition-delay: 0.2s;
+}
+.mobile-menu-btn.active span:before {
+  margin-top: 0;
+  -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+  transition-delay: 0s, 0.2s;
+}
+.mobile-menu-btn.active span:after {
+  margin-top: 0;
+  -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+  transition-delay: 0s, 0.2s;
+}
+.mobile-menu-btn span {
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+  transition-duration: 0s;
+  transition-delay: 0.2s;
+}
+.mobile-menu-btn span:before,
+.mobile-menu-btn span:after {
+  content: '';
+  position: absolute;
+}
+.mobile-menu-btn span:before {
+  margin-top: -10px;
+  transition-property: margin, transform;
+  transition-duration: 0.2s;
+  transition-delay: 0.2s, 0s;
+}
+.mobile-menu-btn span:after {
+  margin-top: 10px;
+  transition-property: margin, transform;
+  transition-duration: 0.2s;
+  transition-delay: 0.2s, 0s;
+}
+.mobile-menu-btn span,
+.mobile-menu-btn span:before,
+.mobile-menu-btn span:after {
+  width: 35px;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+}
+/*=====  End of 17. Mobile Menu Style  ======*/
+/*=======================================
+=            15. Login Style            =
+=======================================*/
+/**
+	Navigation File
+
+	01. Login Page
+	02. Login Bg
+	03. Create
+	04. Sign Up
+
+ */
+/* 01. Login Page
+   ==================================== */
+.login-page {
+  background: #f6fafd linear-gradient(to top, #ffffff 0%, #ffffff 1%, #f5fafd 80%, #f5fafd 100%);
+}
+.login-page header {
+  margin-bottom: 115px;
+}
+/* 02. Login Bg
+   ==================================== */
+.login-bg,
+.sign-up {
+  padding-bottom: 150px;
+}
+.login-bg form,
+.sign-up form {
+  width: 540px;
+  margin: 0 auto 37px;
+  padding: 41px 60px 40px 65px;
+  box-shadow: 1px 1px 44px rgba(38, 63, 90, 0.09);
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.login-bg form a,
+.sign-up form a {
+  display: inline-block;
+}
+.login-bg form .form-group,
+.sign-up form .form-group {
+  margin-bottom: 51px;
+}
+.login-bg form .form-group:last-child,
+.sign-up form .form-group:last-child {
+  text-align: right;
+}
+.login-bg form .form-group:last-child a,
+.sign-up form .form-group:last-child a {
+  float: left;
+  padding-top: 12px;
+}
+.login-bg form button,
+.sign-up form button {
+  padding: 15px 42px;
+}
+.login-bg h2,
+.sign-up h2 {
+  color: #39335b;
+  font-size: 38px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+/* 03. Create
+   ==================================== */
+.create {
+  font-size: 15px;
+  color: #8198a6;
+  letter-spacing: 1px;
+}
+.create a {
+  display: inline-block;
+  text-decoration: underline;
+}
+/* 04. Sign Up
+   ==================================== */
+.sign-up .select {
+  font-size: 15px;
+  color: #8198a6;
+  letter-spacing: 1px;
+  width: 100%;
+  padding-bottom: 37px;
+  border-bottom: 2px solid #dee6eb;
+  background: url(../images/down-select.png) no-repeat 97% 50%;
+}
+.sign-up .select .select-options:before {
+  left: 15%;
+}
+.sign-up .select .select-options li {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.bottom-post h5{
+	font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.table-bordered {
+    border-color: #0071ff;
+}
+
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border-color: #f3f3f3;
+	font-size: 15px;
+    line-height: 1.50;
+    color: #666666;
+}
+.table > thead > tr > th {
+    border-bottom: 1px solid #0071ff;
+    background-color: #0071ff;
+    color: #fff;
+	font-size:15px;
+}
+pre {
+    padding: 20px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.widget-categories .active{
+	color:#0479ec;
+}
+/*=====  End of 15. Login Style  ======*/
+/*===================================
+=            Color Theme            =
+===================================*/
+/*=====  End of Color Theme  ======*/
+/*===================================
+=            Font Family            =
+===================================*/
+/*=====  End of Font Family  ======*/

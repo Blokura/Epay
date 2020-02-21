@@ -1,0 +1,381 @@
+@charset "utf-8";
+@media only screen and (max-width: 1920px){
+	.index_header .banner{
+		margin-top: 100px;
+	}
+	.index_header .banner .banner_btnContact{
+	    margin-top: 80px;
+	}
+	.payment_box{
+		margin-top: -210px;
+	}
+	.advantage .advantage_topMain {
+	    bottom: 32%;
+    	right: 2%;
+	}
+	.contact_box .contact_bot .contact_botMain {
+	    left: 0;
+	    bottom: 20%;
+	}
+}
+@media only screen and (max-width: 1860px){
+	.payment_box{
+		margin-top: -226px;
+	}
+}
+@media only screen and (max-width: 1800px){
+	.index_header .banner{
+		margin-top: 71px;
+	}
+	.payment_box{
+		margin-top: -246px;
+	}
+	.advantage .advantage_topMain {
+	    bottom: 34%;
+    	right: 4%;
+	}
+	.contact_box .contact_bot .contact_botMain {
+	    left: 5%;
+    	bottom: 24%;
+	}
+}
+@media only screen and (max-width: 1750px){
+	.payment_box{
+		margin-top: -288px;
+	}
+}
+@media only screen and (max-width: 1700px){
+	.index_header .banner{
+		margin-top: 75px;
+	}
+	.index_header .banner .banner_btnContact{
+		    margin-top: 64px;
+	}
+	.payment_box{
+		margin-top: -310px;
+	}
+	.advantage .advantage_topMain {
+	    bottom: 36%;
+    	right: 7%;
+	}
+	.contact_box .contact_bot .contact_botMain {
+        left: 7%;
+    	bottom: 23%;
+	}
+	.about .about_right {
+	    width: 711px;
+	    height: 459px;
+	}
+	.about .about_right .about_rightMain {
+	    width: 711px;
+	    height: 459px;
+	}
+	.about .about_right .about_rightMain .about_rightImg1 {
+	    width: 313px;
+	    height: 453px;
+	}
+	.about .about_right .about_rightMain .about_rightImg2 {
+	    width: 569px;
+	    height: 355px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_1 {
+	    top: 104px;
+    	left: 220px;
+	    width: 233px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_2 {
+	    top: 175px;
+	    left: 220px;
+	    width: 222px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_3 {
+        top: 247px;
+    	left: 181px;
+	    width: 333px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_4 {
+	    top: 322px;
+	    left: 181px;
+	    width: 285px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_com {
+	    height: 63px;
+	}
+}
+@media only screen and (max-width: 1650px){
+	.payment_box{
+		margin-top: -315px;
+	}
+}
+@media only screen and (max-width: 1600px){
+	.index_header .banner{
+		margin-top: 57px;
+	}
+	.index_header .banner .banner_btnContact{
+	    margin-top: 25px;
+	}
+	.payment_box{
+		margin-top: -350px;
+	}
+	.advantage .advantage_topMain {
+	    bottom: 38%;
+    	right: 9%;
+	}
+	.contact_box .contact_bot .contact_botMain {
+        left: 9%;
+    	bottom: 22%;
+	}
+	.contact_box .contact_bot .contact_botMain .contact_botMainBtn{
+		margin-top: 35px;
+	}
+}
+@media only screen and (max-width: 1500px){
+	.index_header .banner{
+		margin-top: 47px;
+	}
+	.index_header .banner .banner_btnContact{
+	    margin-top: 15px;
+	}
+	.payment_box{
+		margin-top: -370px;
+	}
+	.advantage .advantage_topMain {
+	    bottom: 38%;
+    	right: 12%;
+	}
+	.contact_box .contact_bot .contact_botMain {
+        left: 10%;
+    	bottom: 22%;
+	}
+	.contact_box .contact_bot .contact_botMain .contact_botMainBtn{
+		margin-top: 25px;
+	}
+	.about .about_right {
+	    width: 632px;
+    	height: 408px;
+	}
+	.about .about_right .about_rightMain {
+	    width: 632px;
+    	height: 408px;
+	}
+	.about .about_right .about_rightMain .about_rightImg1 {
+        width: 278px;
+    	height: 403px;
+	}
+	.about .about_right .about_rightMain .about_rightImg2 {
+	    width: 506px;
+    	height: 315px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_1 {
+	    top: 93px;
+    	left: 194px;
+	    width: 207px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_2 {
+	    top: 154px;
+	    left: 194px;
+	    width: 198px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_3 {
+        top: 219px;
+    	left: 155px;
+	    width: 296px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_4 {
+	    top: 283px;
+	    left: 155px;
+	    width: 254px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_com {
+	    height: 56px;
+	}
+	.about .about_right {
+	    top: 43px;
+	}
+}
+@media only screen and (max-width: 1400px){
+	.index_header .banner{
+		margin-top: 20px;
+	}
+	.payment_box{
+		margin-top: -410px;
+	}
+	.index_header .banner .banner_btnContact{
+	    margin-top: 13px;
+	}
+	.advantage .advantage_topMain {
+        bottom: 40%;
+    	right: 14%;
+	}
+    .contact_box .contact_bot .contact_botMain {
+        left: 14%;
+    	bottom: 26%;
+	}
+	.contact_box .contact_bot .contact_botMain .contact_botMainBtn{
+		margin-top: 20px;
+	}
+	.about .about_right {
+	    width: 553px;
+    	height: 357px;
+	}
+	.about .about_right .about_rightMain {
+	    width: 553px;
+    	height: 357px;
+	}
+	.about .about_right .about_rightMain .about_rightImg1 {
+	    width: 244px;
+    	height: 353px;
+	}
+	.about .about_right .about_rightMain .about_rightImg2 {
+	    width: 442px;
+    	height: 276px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_1 {
+	    top: 82px;
+    	left: 172px;
+	    width: 181px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_2 {
+	    top: 135px;
+	    left: 172px;
+	    width: 173px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_3 {
+        top: 192px;
+    	left: 141px;
+	    width: 259px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_4 {
+	    top: 250px;
+	    left: 141px;
+	    width: 222px;
+	}
+	.about .about_right .about_rightMain .about_rightCenter .rightCenter_com {
+	    height: 49px;
+	}
+	.about .about_right {
+	    top: 43px;
+	}
+	.navBox{ padding: 18px 25px 15px 25px;}
+	.index_header .banner .text1{font-size: 45px;   height: 54px;}
+	.index_header .banner .banner_p{font-size: 19px;}
+	.index_header .banner .banner_btnContact{font-size: 17px;line-height: 46px;    height: 46px;    width: 189px;}
+	.index_header .banner .banner_left{padding-left: 20px; box-sizing: border-box;}
+}
+@media only screen and (max-width: 1300px){
+	.index_header .banner{
+		margin-top: 15px;
+	}
+	.index_header .banner .banner_btnContact{
+	    margin-top: 28px;
+	}
+	.payment_box{
+		margin-top: -430px;
+	}
+	.advantage .advantage_topMain {
+        bottom: 41%;
+    	right: 16%;
+	}
+	.contact_box .contact_bot .contact_botMain {
+        left: 17%;
+    	bottom: 28%;
+	}
+	.contact_box .contact_bot .contact_botMain .contact_botMainBtn{
+		margin-top: 15px;
+	}
+	.contact_comBox .contactUs_index{height: 466px;}
+	.navBox{ padding: 18px 25px 15px 25px;}
+	.index_header .banner .banner_left{margin: 30px 0;}
+	.process{width: 96%; overflow: hidden; background-image: none; background: #fff; box-shadow: 0px 0px 29px rgba(0,0,0,0.1); margin: 30px auto; border-radius: 20px; height: 470px;}tMainTxt{font-size: 25px;}
+	.process .process_main .process_ul li{width: 16%; }
+	.process .process_main{width: 100%; left: 0; }
+}
+@media only screen and (max-width: 1200px){
+	
+	.navBox{ padding: 18px 25px 15px 25px;width: 1200px;}
+	.index_header .banner .text1{font-size: 45px;   height: 54px;}
+	.index_header .banner .banner_p{font-size: 19px;}
+	.index_header .banner .banner_btnContact{font-size: 17px;line-height: 46px;    height: 46px;    width: 189px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+	.index_header .banner .banner_left{padding-left: 20px; box-sizing: border-box;}
+	.about{width: 1200px;}
+	
+	.contact_box .contact_bot .contact_botMain .contact_botMainBtn{ width: 208px; height: 53px; line-height: 53px;}
+	.contact_box .contact_bot{ margin-bottom: 0;}
+	
+	.index_header .banner .banner_right{width: 420px; height: 330px; bottom: 104px;}
+
+	
+	.center{width: 96%; margin: 0 auto;}
+	.protocol_content{position: inherit; margin-top: 20px;}
+	
+	.downLoad_con .center .downLoad_main{width: 100%; display: flex;}
+	.downLoad_con .center .downLoad_main .downLoad_mainLeft{width: 522px;}
+	.downLoad_con .center .downLoad_main .downLoad_mainRight{margin-right: 24px;    margin-top: 10px;}
+	
+	.header_common{width: 100%; min-width: 100%;}
+	.box_common{width: 100%; box-sizing: border-box;}
+	.contact_comBox .contactUs .contactUs_main{display: flex;}
+	.helpCon_content .helpCon_conMain .helpCon_right{ float: left; width:100%;}
+	.advantage_conBox{box-sizing: border-box; display: flex;    padding: 70px 40px;}
+	.advantage .advantage_botMain{display: flex;}
+	
+		@keyframes myfirst {
+	from {
+		bottom: 90px
+	}
+	to {
+		bottom: 70px
+	}
+}
+
+@-webkit-keyframes myfirst {
+	from {
+		bottom: 90px
+	}
+	to {
+		bottom: 70px
+	}
+}
+	
+	
+}
+
+@media only screen and (max-width: 1100px){
+	.process{width: 96%; overflow: hidden; background-image: none; background: #fff; box-shadow: 0px 0px 29px rgba(0,0,0,0.1); margin: 30px auto; border-radius: 20px; height: 470px;}
+	.center{width: 96%;}
+	.process .process_main{width: 100%; left: 0; height: 380px;}
+	.process .process_main .process_title{padding-top: 30px;}
+	.process .process_main .process_ul li{width: 16%; }
+	.index_header .banner .banner_right{width: 400px; height: 300px; bottom: 104px;}
+	.contact_comBox .contactUs .contactUs_main li{width: 28%;}
+	.advantage .advantage_botMain li{width: 20%;}
+	.advantage .advantage_topMain{    bottom: 52%;}
+	.advantage .advantage_botMain{width: 990px;}
+	footer .footer_top .footer_topLeft li{margin-right:28px}
+	footer{width: 960px;}
+	footer .footer_top{width: 100%;}
+	footer .footer_bottom{width: 100%;}
+	@keyframes myfirst {
+	from {
+		bottom: 120px
+	}
+	to {
+		bottom: 100px
+	}
+}
+
+@-webkit-keyframes myfirst {
+	from {
+		bottom: 120px
+	}
+	to {
+		bottom: 100px
+	}
+}
+	.advantage_conBox{box-sizing: border-box; display: flex;    padding: 70px 40px;}
+	.advantage_conBox .conBox_txtConR{ padding-right: 0px;}
+	.advantage_conBox .conBox_photo .conBox_photoMargin{    margin-left: 86px;}
+	.banner{min-width: 1000px;}
+	.contact_box .contact_bot .contact_botMain .contact_botMainTxt{font-size: 25px;}
+}
+
